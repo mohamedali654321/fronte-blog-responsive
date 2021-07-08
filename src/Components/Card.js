@@ -16,7 +16,7 @@ function Card(props) {
       <Link
         to={`/${localStorage.getItem("locale")}/blog/${props.slug}`}
         className="styles_CardWithArrowLink__2vqCa "
-        style={{ opacity: 1, transform: "perspective(1000px)" }}
+        
       >
         <div className="styles_backgroundContainer__2PkOb">
           <div

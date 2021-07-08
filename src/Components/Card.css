@@ -49,6 +49,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     list-style: none;
+    transition: .4s cubic-bezier(0.2, 0.8, 0.2, 1) ;
+    cursor: pointer;
   }
   .styles_CardWithArrowLink__2vqCa .styles_withLink__2s5Hl {
     cursor: pointer;
@@ -56,7 +58,7 @@
   }
   
   .styles_CardWithArrowLink__2vqCa:hover{
-    transform: scale(1.03,1.03);
+    transform: scale(1.04,1.04);
   }
   
   
@@ -205,6 +207,13 @@
       height: 100%;
      
     }
+
+    .styles_img__1peOe:hover{
+
+      filter: brightness(120%);
+      transform: scale(1.04,1.04);
+    }
+
     .styles_cardContent__1exJ4 {
       display: flex;
       flex: 1 1;

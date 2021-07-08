@@ -15,6 +15,8 @@ export default function Blog() {
     const history = useHistory();
     const BACKEND_URL = "http://54.220.211.123:1335"
     const endPoint = "http://54.220.211.123:1335/articles?_sort=date:desc"
+    const [categories,setCategories]=useState([]);
+    const endPoints='http://54.220.211.123:1335/categories?_locale=' + localStorage.getItem("locale")
 
     const showMoreItems = () => {
         setVisible(prevValue =>
@@ -24,7 +26,13 @@ export default function Blog() {
 
     }
 
+    const [show,setShow]=useState(false);
+    const showCategory =()=>{
+        setShow(!show)
+    }
 
+
+    console.log({show})
 
 
     useEffect(() => {
@@ -38,6 +46,23 @@ export default function Blog() {
     }, [card, localStorage.getItem("locale")]);
 
 
+
+    
+   
+  
+
+   useEffect(()=>{
+       axios.get(endPoints).then(res=>{
+           setCategories(res.data);
+           
+
+       }).catch(err=>console.log(err))
+   },[categories]);
+
+   useEffect(()=>{
+       document.addEventListener("mouseup",()=>{setShow(false)});
+       
+   })
 
 
     // function setLang() {
@@ -117,6 +142,18 @@ export default function Blog() {
           <div className="styles_maxWidth__4Sa58">
             <div className="styles_wrapper__ucHyy">
               <div className="styles_innerWrapper__18waN">
+
+
+
+
+
+
+
+
+              
+
+
+
                 <div className="styles_filterBar__jv2PA">
                   <div className="styles_multiSelectsWrapper__1WMcO">
                     <div className="styles_multiSelect__2N3Ep styles_MultiSelect__331Sv">
@@ -139,7 +176,7 @@ export default function Blog() {
                               }}
                             ></div>
                           </div>
-                          <button className="styles_buttonLink__2SP9n typography_Button__3B09N styles_button__39WQl">
+                          <button className="styles_buttonLink__2SP9n typography_Button__3B09N styles_button__39WQl" onClick={showCategory}>
                             <div className="typography_Text__21fWd styles_label__1edzn typography_smaller__2CuhM themes_bay-blue__339Mw">
                               Categories
                             </div>
@@ -157,34 +194,45 @@ export default function Blog() {
                         </div>
                       </div>
 
+                      {
+                        show ? (
+                            <div className="styles-list">
+                        <div className="list-background"></div>
+                        <ul className="options">
+                            {
+                            categories.map(cat=>(
+                                <li className="item" role="option" tabIndex="0">
+                                <span className="box" >
+                                    <svg width="8" height="7" fill="#fff" className="styles_checkIcon">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M6.762 0L3 3.856l-1.763-1.67L0 3.423l3 2.91 5-5.096L6.762 0z"
+                                            fill="#fff"
+                                        ></path>
+                                    </svg>
+                                    
+                                </span>
+                               {cat.name}
+                             </li>
+                            ))
+                            }
+                           
+
+                        </ul>
 
 
-
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-
-
-
-
-                      
-
+                    </div>
+                        ):null
+                    }
                       
                     </div>
                   </div>
-                  <div className="styles_InputText__450nG styles_search__2juEn withIcon">
+                  <div className="styles_InputText__450nG   styles_search__2juEn withIcon"
                   
-                    <input type="text" placeholder="Search" />
+                  >
+                  
+                    <input type="text" value="" name="search" placeholder="Search" />
                     <svg
                       viewBox="0 0 14 14"
                       fill="none"
@@ -197,6 +245,22 @@ export default function Blog() {
                     </svg>
                   </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="styles_tagsResults__1UMb0">
                   <div className="styles_tagsWrapper__Cw-Pg"></div>
                   <p className="typography_Text__21fWd styles_results__1_39O typography_small__wcwpx themes_gray__rNovr">
