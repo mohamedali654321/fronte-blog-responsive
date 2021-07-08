@@ -12,6 +12,7 @@ import Services from './Components/Services'
 import Products from './Components/Products'
 import HomePage from './Home/HomePage'
 import Scroll from './Components/Scroll'
+import Single from './Components/Single';
 
 
 

@@ -68,7 +68,13 @@ export default function Blog() {
                         }}
                         className="styles_word__2432z"
                       >
-                        Blog
+
+                                      <div class="liq-content">
+                                        <h2>LibraryThings</h2>
+                                        <h2>LibraryThings</h2>
+
+                                    </div>
+                        {/* Blog */}
                       </div>
                     </span>
                   </div>
