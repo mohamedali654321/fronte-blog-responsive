@@ -53,7 +53,7 @@ const Icon = styled.span`
   &::before,
   &::after {
     content: "";
-    background-color: #8D1CB8;
+    background-color:#8D1CB8 ;
     width: 1.7rem;
     height: 3px;
     display: inline-block;

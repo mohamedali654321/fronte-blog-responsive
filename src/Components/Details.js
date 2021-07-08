@@ -495,6 +495,9 @@ function Single({ match }) {
                             themes_gray__rNovr
                           "
                         >
+                        <div className="details">
+
+                        
                           <blockquote
                             dangerouslySetInnerHTML={{
                               __html: details.abstract,
@@ -506,7 +509,7 @@ function Single({ match }) {
                             style={{ lineHeight: "20px" }}
                             dangerouslySetInnerHTML={{ __html: details.body }}
                           />
-
+                               </div>
                           <div className="separator3"></div>
                           {details.sources && details.sources.length > 0 ? (
                             <div className="">
