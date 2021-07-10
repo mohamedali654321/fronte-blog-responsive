@@ -1,3 +1,7 @@
+
+/*# sourceMappingURL=f5c0ca6488199c41e151.css.map*/
+
+
 .themes_white__22kAN {
   color: #fff;
 }
@@ -91,7 +95,7 @@
   font-family: Poppins, serif;
   font-size: 17px;
   font-weight: 400;
-  line-height: 1px;
+  line-height: 28px;
 }
 @media (min-width: 992px) {
   .typography_Text__21fWd {
@@ -100,7 +104,7 @@
 }
 .typography_Text__21fWd.typography_big__2HjNu {
   font-size: 17px;
-  line-height: 1.5px;
+  line-height: 1.5;
 }
 @media (min-width: 992px) {
   .typography_Text__21fWd.typography_big__2HjNu {
@@ -109,7 +113,7 @@
 }
 .typography_Text__21fWd.typography_medium__Q--Rb {
   font-size: 17px;
-  line-height: 1.5px;
+  line-height: 1.5;
 }
 @media (min-width: 992px) {
   .typography_Text__21fWd.typography_medium__Q--Rb {
@@ -118,7 +122,7 @@
 }
 .typography_Text__21fWd.typography_small__wcwpx {
   font-size: 15px;
-  line-height: 2px;
+  line-height: 22px;
 }
 @media (min-width: 992px) {
   .typography_Text__21fWd.typography_small__wcwpx {
@@ -297,7 +301,9 @@
   opacity: 0;
   visibility: hidden;
 }
-
+.styles_cover__iPq3e {
+  /* object-fit: cover; */
+}
 .styles_contain__2jMbN {
   object-fit: contain;
 }
@@ -319,7 +325,7 @@
 }
 .styles_img__1peOe,
 .styles_ratio__1y_8X.styles_fluid__3DtuD {
-  position: absolute ;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -576,17 +582,9 @@
   width: auto;
   height: 35px;
 }
-.styles_wrapper__ucHyy {
-  width: 83.3333333333%;
-  max-width: 1200px;
-  z-index: 1;
-}
-.styles_innerWrapper__18waN,
-.styles_wrapper__ucHyy {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+
+
 .styles_innerWrapper__18waN {
   max-width: 980px;
 }
@@ -622,13 +620,7 @@
     min-width: 800px;
   }
 }
-.styles_maxWidth__4Sa58 {
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .styles_buttonContainer__3V0Xl {
   display: inline-block;
 }
@@ -1692,7 +1684,10 @@ table {
   width: 100%;
   height: 100%;
 }
-
+.styles_RichText__3_pYI {
+  word-break: break-word;
+  
+}
 .styles_RichText__3_pYI h1,
 .styles_RichText__3_pYI h2,
 .styles_RichText__3_pYI h3,
@@ -1700,7 +1695,7 @@ table {
 .styles_RichText__3_pYI h5,
 .styles_RichText__3_pYI h6 {
   font-weight: 600;
-  line-height: 1.25px;
+  line-height: 1.25;
   margin-bottom: 35px;
 }
 .styles_RichText__3_pYI li {
@@ -1711,7 +1706,7 @@ table {
 }
 .styles_RichText__3_pYI li,
 .styles_RichText__3_pYI p {
-  line-height: 1.72px;
+  line-height: 1.72;
 }
 .styles_RichText__3_pYI ol,
 .styles_RichText__3_pYI p,
@@ -1827,7 +1822,7 @@ table {
   font-family: monospace;
   padding: 3px 6px;
   margin: 0;
-  
+  word-break: break-word;
 }
 .styles_RichText__3_pYI blockquote {
   padding: 0 16px;
@@ -1972,7 +1967,7 @@ ppingURL=b954f5a4e5f4a548ca28.css.map*/
   font-family: Poppins, serif;
   font-size: 17px;
   font-weight: 400;
-  line-height: 1px;
+  line-height: 28px;
 }
 
 @media (min-width: 992px) {
@@ -2135,6 +2130,9 @@ ppingURL=b954f5a4e5f4a548ca28.css.map*/
   visibility: hidden;
 }
 
+.styles_cover__iPq3e {
+  /* object-fit: cover; */
+}
 
 .styles_contain__2jMbN {
   object-fit: contain;
@@ -9261,70 +9259,10 @@ ppingURL=b954f5a4e5f4a548ca28.css.map*/
   }
 }
 
-/*# sourceMappingURL=f5c0ca6488199c41e151.css.map*/
 
 
 
 
-
-
-html.hs-messages-widget-open.hs-messages-mobile body {
-  height: 100% !important;
-  margin: 0 !important;
-}
-
-#hubspot-messages-iframe-container {
-  display: initial !important;
-  z-index: 2147483647;
-  position: fixed !important;
-  bottom: 0 !important;
-}
-
-#hubspot-messages-iframe-container.widget-align-left {
-  left: 0 !important;
-}
-
-#hubspot-messages-iframe-container.widget-align-right {
-  right: 0 !important;
-}
-
-#hubspot-messages-iframe-container.internal {
-  z-index: 1016;
-}
-
-#hubspot-messages-iframe-container.internal iframe {
-  min-width: 108px;
-}
-
-#hubspot-messages-iframe-container .shadow-container {
-  display: initial !important;
-  z-index: -1;
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 0;
-  content: "";
-}
-
-#hubspot-messages-iframe-container .shadow-container.internal {
-  display: none !important;
-}
-
-#hubspot-messages-iframe-container .shadow-container.active {
-  width: 400px;
-  height: 400px;
-}
-
-#hubspot-messages-iframe-container iframe {
-  display: initial !important;
-  width: 100% !important;
-  height: 100% !important;
-  border: none !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  right: 0 !important;
-  background: transparent !important;
-}
 
 
 
@@ -9342,7 +9280,7 @@ html.hs-messages-widget-open.hs-messages-mobile body {
   position: relative !important;
   overflow: hidden !important;
 
-  line-height: 2px !important;
+  line-height: 22px !important;
 }
 
 .ContentDetails img{

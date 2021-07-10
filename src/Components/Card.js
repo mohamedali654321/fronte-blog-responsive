@@ -12,47 +12,47 @@ function Card(props) {
    
 
     return (
-        <div className="styles_cardContainer__2gwcO">
+        <div className="cardContainer">
       <Link
         to={`/${localStorage.getItem("locale")}/blog/${props.slug}`}
-        className="styles_CardWithArrowLink__2vqCa "
+        className="CardWithArrowLink "
         
       >
-        <div className="styles_backgroundContainer__2PkOb">
+        <div className="styles_backgroundContainer">
           <div
-            className="styles_background__3JWQg styles_type1__Cbdq7"
+            className="styles_background "
             style={{
               transform: "perspective(100px) scale(1.0305, 1.0305)",
             }}
           ></div>
         </div>
-        <div className="styles_cardContainer__3yGHu">
+        <div className="styles_cardContainer">
           <div
             href={`/${localStorage.getItem("locale")}/blog/${props.slug}`}
-            className="styles_coverImageContainer__3LJ55 styles_large__1LCJm styles_bottom__3DIQZ"
+            className="coverImageContainer styles_large "
             style={{ transform: "scale(1.0305, 1.0305)" }}
           >
             <div
-              className="styles_coverImage__1pDIa"
+              className="coverImage"
               style={{ transform: "scale(1.0095, 1.0095)" }}
             >
               <div
-                className="styles_Ratio__3CRRj styles_CardCover__1axIM"
+                className="styles_Ratio CardCover"
                 style={{ paddingBottom: "56.25%" }}
               >
-                <div className="styles_children__1-hab">
+                <div className="styles_children">
                   {props.image &&
                     props.image.url !== null &&
                     videoExtensions.includes(props.image.ext.substring(1)) ===
                       true && (
-                      <div className="styles_CoverImage__2NtS5">
-                        <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                      <div className="styles_CoverImage">
+                        <div className="ratio fluid">
                           <ReactPlayer
                             width="330px"
                             height="200px"
                             controls
                             url={`http://54.220.211.123:1335${props.image.url}`}
-                            className="styles_Img__2JZ2e styles_img__1peOe "
+                            className="styles_Img styles_img "
                             style={{
                               opacity: 1,
                               visibility: "inherit",
@@ -64,11 +64,11 @@ function Card(props) {
                   {props.image &&
                     props.image.url !== null &&
                     videoExtensions.includes(props.image.ext) === false && (
-                      <div className="styles_CoverImage__2NtS5">
-                        <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                      <div className="styles_CoverImage">
+                        <div className="ratio fluid">
                           <img
                             src={BACKEND_URL + props.image.url}
-                            className="styles_Img__2JZ2e styles_img__1peOe "
+                            className="styles_Img styles_img "
                             style={{
                               opacity: 1,
                               visibility: "inherit",
@@ -80,11 +80,11 @@ function Card(props) {
 
                   {props.image === null && (
                     <>
-                      <div className="styles_CoverImage__2NtS5">
-                        <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                      <div className="styles_CoverImage">
+                        <div className="ratio fluid">
                           <img
                             src="/images/default.png"
-                            className="styles_Img__2JZ2e styles_img__1peOe "
+                            className="styles_Img styles_img "
                             style={{
                               opacity: 1,
                               visibility: "inherit",
@@ -105,10 +105,10 @@ function Card(props) {
                     </>
                   )}
 
-                  <div className="styles_CoverImage__2NtS5">
-                    <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                  <div className="styles_CoverImage">
+                    <div className="ratio fluid">
                       <img
-                        className="styles_Img__2JZ2e styles_img__1peOe "
+                        className="styles_Img styles_img "
                         style={{
                           opacity: 1,
                           visibility: "inherit",
@@ -121,7 +121,7 @@ function Card(props) {
             </div>
           </div>
           <div className="styles_cardContent__1exJ4">
-            <div className="styles_cardContainer__2gwcO styles_ListCardContent__3ljxm styles_isList__1dR8M">
+            <div className="cardContainer styles_ListCardContent__3ljxm styles_isList__1dR8M">
               <ul className="styles_tags__12csC">
                 {props.tag &&
                   props.tag.map(tag => (

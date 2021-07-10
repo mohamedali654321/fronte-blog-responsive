@@ -68,7 +68,7 @@ hamburger.addEventListener('click',()=>{
     return (
       <div className={this.state.hasScroll ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <a href="/"><img  src={this.state.hasScroll || document.location.pathname.length === 1 ? '/images/Logotake9.png' : '/images/LogoAttia530a86.png'} className="logo" /></a>
+          <a href="/"><img  style={{width:"90px",height:"50px"}} src={this.state.hasScroll || document.location.pathname.length === 1 ? '/images/KwareLatest.png' : '/images/KwareLatest.png'} className="logo" /></a>
          
 
           <ul className="links">

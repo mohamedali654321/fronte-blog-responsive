@@ -335,7 +335,7 @@ export default function Blog() {
             </div>
           </div>
         </div>
-       {/* <NewsLetter/> */}
+      
       </div>
     </div>
     )

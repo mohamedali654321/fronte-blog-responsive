@@ -143,7 +143,7 @@ function Single({ match }) {
 
   return (
     <div>
-      <div className="styles_container__163CK">
+      {/* <div className="styles_container__163CK">
         <div className="styles_wrapper__ucHyy">
           <a
             className="styles_link__2_Dlj"
@@ -1295,7 +1295,7 @@ function Single({ match }) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -157,7 +157,7 @@ function Footer() {
                   class="styles_img__2d7oy"
                   alt="Strapi logo"
                   media="[object Object]"
-                  src="/images/LogoAttia530a86.png"
+                  src="/images/KwareLatest.png"
                 />
               </a>
               <p class="typography_Text__21fWd styles_tagline__rXOd3 typography_legend__12cYE themes_gray__rNovr">

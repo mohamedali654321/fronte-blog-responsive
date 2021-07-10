@@ -12,7 +12,7 @@ import "./Single.css";
 
 import Card from "./Card";
 
-function Single({ match }) {
+function Details({ match }) {
   const slug = match.params.slug;
   const [details, setDetails] = useState([]);
   const [id, setId] = useState("");
@@ -742,4 +742,4 @@ function Single({ match }) {
   );
 }
 
-export default Single;
+export default Details;
