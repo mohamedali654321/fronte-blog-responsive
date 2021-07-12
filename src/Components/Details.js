@@ -567,7 +567,7 @@ function Details({ match }) {
                         styles_innerWrapper__18waN
                       "
                   >
-                    <div className="styles_headerWrapper__26l8S">
+                    <div className="">
                       <div className="styles_content__18bB1">
                         <div
                           className="
