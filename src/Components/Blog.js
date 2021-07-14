@@ -85,9 +85,16 @@ useEffect(()=>{
               <div
                 className="styles_LabelTitleText__1RD_E styles_hero__3if6L styles_center__2_RcD"
                 style={{ opacity: 1 }}
-              >
+                
+               >
                 <h1 className="typography_Title__15mGG styles_title__1TzMX typography_large__TBB8X themes_dark__3hjQG">
-                  <div className="styles_titleContainer__2TSrx">
+                  <div className="styles_titleContainer__2TSrx"
+                  data-aos="zoom-in"
+               data-aos-offset="200"
+               data-aos-delay="300"
+                  
+                  
+                  >
                     <span>
                       <div
                         style={{
@@ -202,7 +209,7 @@ useEffect(()=>{
 
                       {
                         show ? (
-                            <div className="styles-list" data-aos="fade-down">
+                            <div className="styles-list" >
                         <div className="list-background"></div>
                         <ul className="options">
                             {
@@ -290,8 +297,7 @@ useEffect(()=>{
                       publishDate={item.publishDate}
                       slug={item.slug}
                       translator={item.translator ? item.translator : null}
-                      aos="zoom-in"
-                      offset="100"
+                     
                       delay={item.id}
                     />
                   ))}
@@ -300,6 +306,7 @@ useEffect(()=>{
                  data-aos="zoom-in"
                  data-aos-offset="200"
                  data-aos-delay="200"
+                 data-aos-once="true"
                 >
                   <div className="styles_button__1GlNg styles_buttonContainer__3V0Xl">
                     <div className="styles_button__1CLx_ styles_gray__1r7Jg">

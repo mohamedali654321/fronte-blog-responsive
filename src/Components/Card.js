@@ -27,6 +27,7 @@ function Card(props) {
         data-aos="zoom-in"
         data-aos-offset="200"
         data-aos-delay="200"
+        data-aos-once="true"
        
         
       >

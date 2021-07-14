@@ -216,6 +216,7 @@ function Details({ match }) {
                           themes_dark__3hjQG
                         "
                         data-aos="zoom-in"
+                        data-aos-once="true"
                       >
                         {details.title}
                       </h1>
@@ -225,7 +226,7 @@ function Details({ match }) {
                     className="styles_Ratio__3CRRj styles_articleCover__2vRCN"
                     style={{ paddingBottom: "62.5%" }}
                   >
-                    <div className="styles_children__1-hab" data-aos="zoom-in">
+                    <div className="styles_children__1-hab" data-aos="zoom-in" data-aos-once="true">
                       <div className="styles_CoverImage__2NtS5">
                         {details.coverMedia === null &&
                           details.image &&
@@ -470,6 +471,7 @@ function Details({ match }) {
                               data-aos="zoom-in"
                               data-aos-delay="100"
                              data-aos-offset="200"
+                             data-aos-once="true"
                             >
                               Author: {details.author}
                             </p>
@@ -482,6 +484,7 @@ function Details({ match }) {
                               data-aos="zoom-in"
                               data-aos-delay="100"
                              data-aos-offset="200"
+                             data-aos-once="true"
                             >
                               Translated by: {details.translator}
                             </p>
@@ -494,6 +497,7 @@ function Details({ match }) {
                               data-aos="zoom-in"
                               data-aos-delay="100"
                              data-aos-offset="200"
+                             data-aos-once="true"
                             >
                               {details.publishDate}
                             </p>
