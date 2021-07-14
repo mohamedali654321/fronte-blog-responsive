@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import axios from 'axios'
 import Card from './Card'
 import FilterBar from './FilterBar'
@@ -35,6 +36,11 @@ export default function Blog() {
     console.log({show})
 
 
+useEffect(()=>{
+  AOS.init()
+})
+  
+
     useEffect(() => {
         axios.get("http://54.220.211.123:1335/articles?_sort=publishDate:desc&_locale=" + localStorage.getItem("locale")).
             then(async res => {
@@ -57,7 +63,7 @@ export default function Blog() {
            
 
        }).catch(err=>console.log(err))
-   },[categories]);
+   },[categories,localStorage.getItem("locale")]);
 
    useEffect(()=>{
        document.addEventListener("mouseup",()=>{setShow(false)});
@@ -157,7 +163,7 @@ export default function Blog() {
                 <div className="styles_filterBar__jv2PA">
                   <div className="styles_multiSelectsWrapper__1WMcO">
                     <div className="styles_multiSelect__2N3Ep styles_MultiSelect__331Sv">
-                      <div className="styles_buttonContainer__1rAYf styles_buttonContainer__3V0Xl">
+                      <div className="styles_buttonContainer__1rAYf styles_buttonContainer__3V0Xl" >
                         <div className="styles_button__1CLx_ styles_gray__1r7Jg styles_buttonWrapper__TAxYH">
                           <span
                             className="styles_shadow__3eyWi"
@@ -196,7 +202,7 @@ export default function Blog() {
 
                       {
                         show ? (
-                            <div className="styles-list">
+                            <div className="styles-list" data-aos="fade-down">
                         <div className="list-background"></div>
                         <ul className="options">
                             {
@@ -284,10 +290,17 @@ export default function Blog() {
                       publishDate={item.publishDate}
                       slug={item.slug}
                       translator={item.translator ? item.translator : null}
+                      aos="zoom-in"
+                      offset="100"
+                      delay={item.id}
                     />
                   ))}
                 </div>
-                <div className="styles_buttonContainer__1rP_U">
+                <div className="styles_buttonContainer__1rP_U"
+                 data-aos="zoom-in"
+                 data-aos-offset="200"
+                 data-aos-delay="200"
+                >
                   <div className="styles_button__1GlNg styles_buttonContainer__3V0Xl">
                     <div className="styles_button__1CLx_ styles_gray__1r7Jg">
                       <span
@@ -295,6 +308,7 @@ export default function Blog() {
                         style={{ opacity: 0 }}
                       ></span>
                       <div
+                      
                         className="styles_background__2gXxd styles_gray__1r7Jg"
                         style={{ transform: "perspective(800px)" }}
                       >

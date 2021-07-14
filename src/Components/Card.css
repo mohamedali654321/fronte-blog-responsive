@@ -223,7 +223,7 @@
     .styles_img:hover{
 
       filter: brightness(120%);
-      transform: scale(1.04,1.04);
+      transform: scale(1.03);
     }
 
     .styles_cardContent__1exJ4 {
@@ -581,4 +581,25 @@
   }
   .themes_bay-blue__339Mw {
     color: #8D1CB8;
+  }
+
+.animate{
+opacity: 0;
+animation: fade-in forwards;
+animation-duration: .5s;
+
+animation-delay: .2;
+}
+
+
+  @keyframes fade-in{
+
+from{
+  opacity: 0;
+}
+
+to{
+  opacity: 1;
+}
+
   }

@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import './Card.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import axios from 'axios'
 import videoExtensions from 'video-extensions'
 import ReactPlayer from 'react-player'
 
@@ -9,16 +12,23 @@ function Card(props) {
     const BACKEND_URL = "http://54.220.211.123:1335"
     console.log(props)
    const locale =localStorage.getItem("locale")
+   useEffect(()=>{
+    AOS.init()
+  })
    
-
+   
+  
     return (
-        <div className="cardContainer">
+        <div className="cardContainer "  >
       <Link
         to={`/${localStorage.getItem("locale")}/blog/${props.slug}`}
         className="CardWithArrowLink "
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-delay="200"
         
       >
-        <div className="styles_backgroundContainer">
+        <div className="styles_backgroundContainer" >
           <div
             className="styles_background "
             style={{

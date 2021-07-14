@@ -9,7 +9,7 @@ import ReactPlayer from "react-player";
 import videoExtensions from "video-extensions";
 import { DiscussionEmbed } from "disqus-react";
 import "./Single.css";
-
+import ProgressBar from "react-scroll-progress-bar";
 import Card from "./Card";
 
 function Details({ match }) {
@@ -147,7 +147,9 @@ function Details({ match }) {
 
   return (
     <div>
+    
       <div className="styles_container__163CK">
+      
         <div className="styles_wrapper__ucHyy">
           <a
             className="styles_link__2_Dlj"
@@ -208,10 +210,12 @@ function Details({ match }) {
                     <div className="styles_header__3Gvv7">
                       <h1
                         className="
+                        
                           typography_Title__15mGG
                           typography_large__TBB8X
                           themes_dark__3hjQG
                         "
+                        data-aos="zoom-in"
                       >
                         {details.title}
                       </h1>
@@ -221,7 +225,7 @@ function Details({ match }) {
                     className="styles_Ratio__3CRRj styles_articleCover__2vRCN"
                     style={{ paddingBottom: "62.5%" }}
                   >
-                    <div className="styles_children__1-hab">
+                    <div className="styles_children__1-hab" data-aos="zoom-in">
                       <div className="styles_CoverImage__2NtS5">
                         {details.coverMedia === null &&
                           details.image &&
@@ -463,6 +467,9 @@ function Details({ match }) {
                                 typography_small__wcwpx
                                 themes_purple__2jb4m
                               "
+                              data-aos="zoom-in"
+                              data-aos-delay="100"
+                             data-aos-offset="200"
                             >
                               Author: {details.author}
                             </p>
@@ -472,6 +479,9 @@ function Details({ match }) {
                                 typography_small__wcwpx
                                 themes_purple__2jb4m
                               "
+                              data-aos="zoom-in"
+                              data-aos-delay="100"
+                             data-aos-offset="200"
                             >
                               Translated by: {details.translator}
                             </p>
@@ -481,6 +491,9 @@ function Details({ match }) {
                                 typography_smaller__2CuhM
                                 themes_gray__rNovr
                               "
+                              data-aos="zoom-in"
+                              data-aos-delay="100"
+                             data-aos-offset="200"
                             >
                               {details.publishDate}
                             </p>
@@ -495,7 +508,11 @@ function Details({ match }) {
                             themes_gray__rNovr
                           "
                         >
-                        <div className="details">
+                        <div className="details" 
+                        data-aos="zoom-in"
+                        data-aos-delay="200"
+                        data-aos-offset="300"
+                        >
 
                         
                           <blockquote
@@ -505,6 +522,7 @@ function Details({ match }) {
                           ></blockquote>
 
                           <div
+                          
                             className="ContentDetails"
                             style={{ lineHeight: "20px" }}
                             dangerouslySetInnerHTML={{ __html: details.body }}
@@ -536,7 +554,7 @@ function Details({ match }) {
                   </div>
                 </div>
 
-                <div className="comments">
+                <div className="comments" data-aos="zoom-in">
                   <DiscussionEmbed
                     shortname="KwareTech-Comments"
                     config={{
@@ -668,7 +686,9 @@ function Details({ match }) {
                 styles_maxWidth__4Sa58
               "
           >
-            <div className="styles_wrapper__3XDOm styles_wrapper__ucHyy">
+            <div className="styles_wrapper__3XDOm styles_wrapper__ucHyy"
+
+            >
               <div></div>
               <div></div>
               <div className="styles_content__2QxRq">
@@ -679,6 +699,7 @@ function Details({ match }) {
                       typography_small__wcwpx
                       themes_white__22kAN
                     "
+
                 >
                   Join our Newsletter
                 </h3>
