@@ -516,6 +516,7 @@ function Details({ match }) {
                         data-aos="zoom-in"
                         data-aos-delay="200"
                         data-aos-offset="300"
+                        data-aos-once="true"
                         >
 
                         
@@ -558,7 +559,7 @@ function Details({ match }) {
                   </div>
                 </div>
 
-                <div className="comments" data-aos="zoom-in">
+                <div className="comments" data-aos="zoom-in" data-aos-once="true">
                   <DiscussionEmbed
                     shortname="KwareTech-Comments"
                     config={{
