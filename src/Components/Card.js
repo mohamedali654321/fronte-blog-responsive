@@ -19,16 +19,21 @@ function Card(props) {
    
   
     return (
-        <div className="cardContainer "  >
+        <div className="cardContainer "    >
       <Link
         to={`/${localStorage.getItem("locale")}/blog/${props.slug}`}
         className="CardWithArrowLink "
+
         data-aos="zoom-in"
         data-aos-offset="200"
         data-aos-delay="200"
+       
         
       >
-        <div className="styles_backgroundContainer" >
+        <div className="styles_backgroundContainer"
+        
+        
+         >
           <div
             className="styles_background "
             style={{

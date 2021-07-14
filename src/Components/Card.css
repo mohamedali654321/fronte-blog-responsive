@@ -43,7 +43,7 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     list-style: none;
-    transition: .4s cubic-bezier(0.2, 0.8, 0.2, 1) ;
+    transition: .4s cubic-bezier(0.2, 0.8, 0.2, 1) !important ;
     cursor: pointer;
   }
   .CardWithArrowLink .styles_withLink__2s5Hl {
@@ -52,7 +52,7 @@
   }
   
   .CardWithArrowLink:hover{
-    transform: scale(1.04,1.04);
+    transform: scale(1.04,1.04) !important;
   }
   
   
