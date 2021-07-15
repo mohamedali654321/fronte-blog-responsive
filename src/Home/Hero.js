@@ -10,6 +10,7 @@ const BackgroundTop = styled.div`
     right: 0;
     width: 90%;
     max-width: 1024px;
+    
 
 
  `
@@ -48,7 +49,7 @@ const Hero = () => (
 
     <div className="HeroGroup">
       <BackgroundTop>
-         <ImgTop src="/images/hp-logo-hero_c94026101f.svg" /> 
+         {/* <ImgTop src="/images/hp-logo-hero_c94026101f.svg" />  */}
         
 
       </BackgroundTop>

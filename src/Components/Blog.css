@@ -664,6 +664,10 @@ position: absolute;
   margin-right: -10px;
 
 }
+styles_button__1GlNg:hover{
+
+  
+}
 
 .styles_SmallArrow__i7hnM {
   width: 11px;
@@ -741,6 +745,10 @@ position: absolute;
 
 .styles_buttonContainer__1rP_U {
   text-align: center;
+  transition: .4s cubic-bezier(0.2, 0.8, 0.2, 1) !important ;
+}
+.styles_buttonContainer__1rP_U:hover{
+  transform: scale(1.1) !important;
 }
 
 .options .item:focus .box{
