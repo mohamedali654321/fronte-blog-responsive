@@ -285,7 +285,7 @@
     box-sizing: border-box;
     transform: translateZ(1000px);
   }
-  .action_buttonLink.styles_disabled__3fRF1 {
+  .action_buttonLink {
     opacity: 0.5;
     pointer-events: none;
   }
