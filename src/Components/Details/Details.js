@@ -3,14 +3,14 @@ import "./Details.css";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
-import NewsLetterBanner from "./NewsLetterBanner";
+
 
 import ReactPlayer from "react-player";
 import videoExtensions from "video-extensions";
 import { DiscussionEmbed } from "disqus-react";
-import "./Single.css";
+
 import ProgressBar from "react-scroll-progress-bar";
-import Card from "./Card";
+import Card from "../Card/Card";
 
 function Details({ match }) {
   const slug = match.params.slug;
@@ -148,11 +148,11 @@ function Details({ match }) {
   return (
     <div>
     
-      <div className="styles_container__163CK">
+      <div className="details_container">
       
-        <div className="styles_wrapper__ucHyy">
+        <div className="details_wrapper">
           <a
-            className="styles_link__2_Dlj"
+            className="backTo_link"
             target=""
             alt=""
             to="/blog"
@@ -160,22 +160,21 @@ function Details({ match }) {
           >
             <span
               className="
-                  styles_ArrowLink__30wgu
-                  styles_link__2_Dlj
-                  purple
-                  styles_reversed__3MsTn
+                  ArrowLink
+                  backTo_link
+                  ArrowLink_rotate
                 "
             >
-              <span className="styles_container__37KUB">
-                <span className="typography_Label__1knAy themes_purple__2jb4m">
+              <span className="ArrowLink_container">
+                <span className="ArrowLink_label themes_colorBack">
                   Back to articles
                 </span>
                 <svg
                   className="
-                      styles_SmallArrow__i7hnM
-                      styles_icon__1xaT9
-                      styles_purple__TTVOU
-                      right
+                      SmallArrow
+                      styles_icon
+                      fill_color
+                 
                     "
                   viewBox="0 0 11 12"
                   fill="none"
@@ -197,23 +196,23 @@ function Details({ match }) {
 
         <section
           className="
-              styles_gradient-right__2o2Bn
-              styles_footer__1UMS5
-              styles_maxWidth__4Sa58
+            
+              article_container
+              article_maxWidth
             "
         >
           {localeData.map((details) => (
-            <div className="styles_wrapper__huNlp styles_wrapper__ucHyy">
+            <div className="articleWrapper details_wrapper">
               <div className="">
-                <div className="styles_wrapper__ucHyy">
-                  <div className="styles_innerWrapper__18waN">
-                    <div className="styles_header__3Gvv7">
+                <div className="details_wrapper">
+                  <div className="articleInnerWrapper">
+                    <div className="articleIHeader">
                       <h1
                         className="
                         
-                          typography_Title__15mGG
-                          typography_large__TBB8X
-                          themes_dark__3hjQG
+                          details_title
+                          details_titleLabel
+                          themes_color
                         "
                         data-aos="zoom-in"
                         data-aos-once="true"
@@ -223,28 +222,28 @@ function Details({ match }) {
                     </div>
                   </div>
                   <div
-                    className="styles_Ratio__3CRRj styles_articleCover__2vRCN"
+                    className="articleRatio articleCover"
                     style={{ paddingBottom: "62.5%" }}
                   >
-                    <div className="styles_children__1-hab" data-aos="zoom-in" data-aos-once="true">
-                      <div className="styles_CoverImage__2NtS5">
+                    <div className="styles_children_image" data-aos="zoom-in" data-aos-once="true">
+                      <div className="articleCoverImage">
                         {details.coverMedia === null &&
                           details.image &&
                           details.image.url !== null &&
                           videoExtensions.includes(
                             details.image.ext.substring(1)
                           ) === true && (
-                            <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                            <div className="styles_ratio_img styles_fluid_img">
                               <ReactPlayer
                                 width="100%"
                                 height="100%"
                                 controls
                                 url={`http://54.220.211.123:1335${details.image.url}`}
                                 className="
-                              styles_Img__2JZ2e
-                              styles_img__1peOe
-                              styles_cover__iPq3e
-                              styles_center__1laxx
+                              
+                              styles_img_article
+                              
+                              styles_img_center
                             "
                                 style={{
                                   opacity: 1,
@@ -260,14 +259,14 @@ function Details({ match }) {
                           videoExtensions.includes(
                             details.image.ext.substring(1)
                           ) === false && (
-                            <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                            <div className="styles_ratio_img styles_fluid_img">
                               <img
                                 src={BACKEND_URL + details.image.url}
                                 className="
-                              styles_Img__2JZ2e
-                              styles_img__1peOe
-                              styles_cover__iPq3e
-                              styles_center__1laxx
+                              
+                              styles_img_article
+                              
+                              styles_img_center
                             "
                                 style={{
                                   opacity: 1,
@@ -283,14 +282,14 @@ function Details({ match }) {
                           videoExtensions.includes(
                             details.coverMedia.ext.substring(1)
                           ) === false && (
-                            <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                            <div className="styles_ratio_img styles_fluid_img">
                               <img
                                 src={BACKEND_URL + details.coverMedia.url}
                                 className="
-                              styles_Img__2JZ2e
-                              styles_img__1peOe
-                              styles_cover__iPq3e
-                              styles_center__1laxx
+                              
+                              styles_img_article
+                              
+                              styles_img_center
                             "
                                 style={{
                                   opacity: 1,
@@ -306,7 +305,7 @@ function Details({ match }) {
                           videoExtensions.includes(
                             details.coverMedia.ext.substring(1)
                           ) === true && (
-                            <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                            <div className="styles_ratio_img styles_fluid_img">
                               <ReactPlayer
                                 width="100%"
                                 height="100%"
@@ -318,6 +317,9 @@ function Details({ match }) {
                                   position: "absolute",
                                 }}
                                 className="
+                                styles_img_article
+                              
+                              styles_img_center
                               
                             "
                               />
@@ -325,16 +327,16 @@ function Details({ match }) {
                           )}
 
                         {!details.image && !details.coverMedia && (
-                          <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                          <div className="styles_ratio_img styles_fluid_img">
                             <img
                               src="/images/default.png"
                               style={{ opacity: 1, visibility: "inherit" }}
                               className="
 
-                              styles_Img__2JZ2e
-                              styles_img__1peOe
-                              styles_cover__iPq3e
-                              styles_center__1laxx
+                              
+                              styles_img_article
+                              
+                              styles_img_center
                             "
                             />
                             <ul className="styles_tags">
@@ -357,8 +359,8 @@ function Details({ match }) {
                   </div>
                 </div>
 
-                <div className="styles_contentWrapper__3IhP8 styles_wrapper__ucHyy">
-                  <div className="styles_contentContainer__JVCxT">
+                <div className="article_contentWrapper details_wrapper">
+                  <div className="article_contentContainer">
                     <div className="ShareContainer">
                       <ul className="share">
                         <li className="socialMedia">
@@ -444,17 +446,17 @@ function Details({ match }) {
                       </ul>
                     </div>
 
-                    <div className="styles_innerWrapper__18waN">
-                      <div className="styles_content__19Gmi">
-                        <div className="styles_Author__1L6by">
-                          <div className="styles_image__1Q2zx">
-                            <div className="styles_ratio__1y_8X styles_fluid__3DtuD">
+                    <div className="articleInnerWrapper">
+                      <div className="article_content">
+                        <div className="article_Author">
+                          <div className="styles_image_Author">
+                            <div className="styles_ratio_img styles_fluid_img">
                               <img
                                 className="
-                                  styles_Img__2JZ2e
-                                  styles_img__1peOe
-                                  styles_cover__iPq3e
-                                  styles_center__1laxx
+                                 
+                                  styles_img_article
+                                 
+                                  styles_img_center
                                 "
                                 src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/22731000_59503fccb4.jpeg"
                                 style={{ opacity: 1, visibility: "inherit" }}
@@ -465,8 +467,8 @@ function Details({ match }) {
                             <p
                               className="
                                 typography_Text__21fWd
-                                typography_small__wcwpx
-                                themes_purple__2jb4m
+                                article_textSmall
+                                themes_color
                               "
                               data-aos="zoom-in"
                               data-aos-delay="100"
@@ -478,8 +480,8 @@ function Details({ match }) {
                             <p
                               className="
                                 typography_Text__21fWd
-                                typography_small__wcwpx
-                                themes_purple__2jb4m
+                                article_textSmall
+                                themes_color
                               "
                               data-aos="zoom-in"
                               data-aos-delay="100"
@@ -491,8 +493,8 @@ function Details({ match }) {
                             <p
                               className="
                                 typography_Text__21fWd
-                                typography_smaller__2CuhM
-                                themes_gray__rNovr
+                                article_publishTextSmall
+                                article_content_color
                               "
                               data-aos="zoom-in"
                               data-aos-delay="100"
@@ -503,13 +505,13 @@ function Details({ match }) {
                             </p>
                           </div>
                         </div>
-                        <div className="styles_separator__2oEjP styles_Separator__11mf1"></div>
+                        <div className="styles_separator "></div>
 
                         <div
                           className="
                             typography_Text__21fWd
-                            styles_RichText__3_pYI
-                            themes_gray__rNovr
+                            styles_RichText
+                            article_content_color
                           "
                         >
                         <div className="details" 
@@ -554,7 +556,7 @@ function Details({ match }) {
                           ) : null}
                         </div>
                       </div>
-                      <div className="styles_deviceSharer__27Qa6"></div>
+                     
                     </div>
                   </div>
                 </div>
@@ -578,36 +580,35 @@ function Details({ match }) {
         <div className="">
           
 
-          <div className="styles_RelatedArticlesGrid__32D_C">
-            <div className="styles_maxWidth__4Sa58">
-              <section className="styles_gradient-right__2o2Bn styles_maxWidth__4Sa58">
+          <div className="RelatedArticlesGrid">
+            <div className="article_maxWidth">
+              <section className=" article_maxWidth">
 
 
-                <div className="styles_wrapper__huNlp styles_wrapper__ucHyy">
+                <div className="articleWrapper details_wrapper">
                   <div
                     className="
-                        styles_mobileInnerWrapper__34pIE
-                        styles_innerWrapper__18waN
+                        mobileInnerWrapper
+                        articleInnerWrapper
                       "
                   >
                     <div className="">
-                      <div className="styles_content__18bB1">
+                      <div className="">
                         <div
                           className="
-                              styles_LabelTitleText__1RD_E
-                              styles_center__2_RcD
+                              
                             "
                           style={{ opacity: 1 }}
                         >
                           <h1
                             className="
-                                typography_Title__15mGG
-                                styles_title__1TzMX
-                                typography_large__TBB8X
-                                themes_dark__3hjQG
+                                details_title
+                                RelatedArticle_title
+                                details_titleLabel
+                                themes_color
                               "
                           >
-                            <div className="styles_titleContainer__2TSrx">
+                            <div className="RelatedArticle_titleContainer">
                               <span>
                                 <div
                                   style={{
@@ -616,7 +617,7 @@ function Details({ match }) {
                                     opacity: 1,
                                     transform: "translate3d(0px, 30px, -20px)",
                                   }}
-                                  className="styles_word__2432z"
+                                  className="RelatedArticle_words"
                                 >
                                   Other articles you don't want to miss 
                                 </div>
@@ -632,12 +633,12 @@ function Details({ match }) {
                   </div>
                 </div>
               </section>
-              <div className="styles_wrapper__ucHyy">
-                <div className="styles_innerWrapper__18waN">
+              <div className="details_wrapper">
+                <div className="articleInnerWrapper">
                   <div
                     className="
-                        styles_CardsGrid__2pV6O
-                        styles_singleColumnOnTablet__1CxJs
+                        RelatedArticle_CardsGrid
+                        RelatedArticle_singleColumnOnTablet
 
                       "
                       style={{opacity:1,visibility:"visible"}}
@@ -686,23 +687,23 @@ function Details({ match }) {
 
           <div
             className="
-                styles_NewsletterBanner__emGYC
-                styles_slice__3lIJ8
-                styles_maxWidth__4Sa58
+                NewsletterBanner
+                
+                article_maxWidth
               "
           >
-            <div className="styles_wrapper__3XDOm styles_wrapper__ucHyy"
+            <div className="Newsletter_wrapper details_wrapper"
 
             >
               <div></div>
               <div></div>
-              <div className="styles_content__2QxRq">
+              <div className="Newsletter_content">
                 <h3
                   className="
-                      typography_Title__15mGG
-                      styles_title__3yUXI
-                      typography_small__wcwpx
-                      themes_white__22kAN
+                      details_title
+                      Newsletter_label
+                      article_textSmall
+                      themes_white
                     "
 
                 >
@@ -711,16 +712,16 @@ function Details({ match }) {
                 <p
                   className="
                       typography_Text__21fWd
-                      typography_small__wcwpx
-                      themes_white__22kAN
+                      article_textSmall
+                      themes_white
                     "
                 >
                   Get all the latest KwareTech updates, news and events.
                 </p>
               </div>
-              <form className="styles_form__2eGlO">
+              <form className="Newsletter_form">
                 <input
-                  className="styles_Input__Z3Wqw styles_emailInput__2GXWR"
+                  className="Newsletter_formInput Newsletter_emailInput"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -728,29 +729,19 @@ function Details({ match }) {
                   required=""
                   value=""
                 />
-                <div className="styles_buttonContainer__3V0Xl">
-                  <div className="styles_button__1CLx_ styles_purple__3tT7k">
-                    <span
-                      className="styles_shadow__3eyWi"
-                      style={{ opacity: 0 }}
-                    ></span>
+                <div className="Newsletter_buttonContainer">
+                  <div className="styles_button__1CLx_ Newsletter_buttonBg">
+                   
                     <div
-                      className="styles_background__2gXxd styles_purple__3tT7k"
+                      className="Newsletter_button_background Newsletter_buttonBg"
                       style={{ transform: "perspective(800px)" }}
                     >
-                      <div
-                        className="styles_hoverCircle__Nns-N"
-                        style={{
-                          opacity: 0,
-                          transform:
-                            "perspective(15px) translate3d(0px, 0px, -90px)",
-                        }}
-                      ></div>
+                     
                     </div>
                     <input
                       className="
-                          styles_buttonLink__2SP9n
-                          typography_Button__3B09N
+                          Newsletter_buttonLink
+                          
                           styles_submitButton__Qdcr1
                         "
                       type="submit"

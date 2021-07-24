@@ -15,7 +15,7 @@ function Card(props) {
    useEffect(()=>{
     AOS.init()
   })
-   
+   console.log(props.index)
    
   
     return (
@@ -26,7 +26,7 @@ function Card(props) {
 
         data-aos="zoom-in"
         data-aos-offset="200"
-        data-aos-delay="200"
+        data-aos-delay={`200+(${props.index}*100)`}
         data-aos-once="true"
        
         
@@ -136,40 +136,38 @@ function Card(props) {
               </div>
             </div>
           </div>
-          <div className="styles_cardContent__1exJ4">
-            <div className="cardContainer styles_ListCardContent__3ljxm styles_isList__1dR8M">
-              <ul className="styles_tags__12csC">
+          <div className="cardContent">
+            <div className="cardContainer ListCardContent  styles_List">
+              <ul className="category_tags">
                 {props.tag &&
                   props.tag.map(tag => (
-                    <li className="styles_Tag__U_AL0 styles_tag__2Une0">
-                      <span className="typography_Label__1knAy styles_tagLabel__MYC03 themes_gray__rNovr">
+                    <li className="category_tags_styles category_tags_items">
+                      <span className="category_label category_label_style ">
                         {tag.name}
                       </span>
                     </li>
                   ))}
-                <li className="styles_Tag__U_AL0 styles_tag__2Une0">
-                  
-                </li>
+               
               </ul>
-              <h2 className="typography_Title__15mGG styles_title__3GD2G typography_smaller__2CuhM themes_dark__3hjQG">
+              <h2 className="card_titleContainer card_title card_small_text card_text_color">
                 {props.title}
               </h2>
-              <p className="typography_Text__21fWd styles_text__ZSJ0H typography_small__wcwpx themes_gray__rNovr">
+              <p className="card_text card_text_abstract abstract_small_text card_text_color_abstractPublish">
                 {props.abstract}
               </p>
-              <div className="styles_Author__1L6by styles_author__12c2c styles_small__3qQTy">
+              <div className="AuthorContainer author author_small_label">
                 <div>
-                  <p className="typography_Text__21fWd typography_smaller__2CuhM themes_bay-blue__339Mw">
+                  <p className="card_text card_small_text author_color_label">
                   Author: {props.name}
                   </p>
 
                   {props.translator ? (
-                    <p className="typography_Text__21fWd typography_smaller__2CuhM themes_bay-blue__339Mw">
+                    <p className="card_text card_small_text author_color_label">
                       Translated by: {props.translator}
                     </p>
                   ) : null}
 
-                  <p className="typography_Text__21fWd typography_legend__12cYE themes_gray__rNovr">
+                  <p className="card_text publish_label card_text_color_abstractPublish">
                     {props.publishDate}
                   </p>
                 </div>

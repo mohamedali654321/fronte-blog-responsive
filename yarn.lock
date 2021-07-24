@@ -6949,6 +6949,11 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
+kware-react-helper@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/kware-react-helper/-/kware-react-helper-1.0.0.tgz#fb9439faf0f8bf89cfee3f9408990d29117be8a3"
+  integrity sha512-si2Gn/N4Ng3s88QsU5Eb1FBNtAUtlbeDObu/N+GoTU0RfRF9Sw+GujKGxFjW8E8wYvv3us/J2iEjoeB6JxYu4Q==
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"

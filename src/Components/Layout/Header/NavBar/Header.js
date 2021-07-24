@@ -2,9 +2,9 @@ import React, { useState, useRef } from 'react'
 
 import './Header.css'
 import { Link } from 'react-router-dom'
-import Language from './Language'
 
-import HamburgerMenu from './HamburgerMenu'
+import Language from '../SwitchLanguage/Language'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 
 class Header extends React.Component {
   constructor(props) {

@@ -1,18 +1,18 @@
 import React  from 'react'
 import './App.css';
 import {BrowserRouter as Router , Route, Switch } from 'react-router-dom'
-import Header from './Components/Header';
-import Footer from './Components/Footer'
-import MainPage from './Components/MainPage';
-import Details from './Components/Details';
-import OurPartners from './Components/OurPartners'
-import OurClints from './Components/OurClints'
-import SysSolutions from './Components/SysSolutions'
-import Services from './Components/Services'
-import Products from './Components/Products'
+import Header from './Components/Layout/Header/NavBar/Header';
+import Footer from './Components/Layout/Footer/Footer'
+import MainPage from './Components/Blog/MainPage';
+import Details from './Components/Details/Details';
+import OurPartners from './Components/OurPartners/OurPartners'
+import OurClints from './Components/OurClints/OurClints'
+import SysSolutions from './Components/SysSolutions/SysSolutions'
+import Services from './Components/Services/Services'
+import Products from './Components/Product/Products'
 import HomePage from './Home/HomePage'
-import Scroll from './Components/Scroll'
-import Single from './Components/Single';
+import Scroll from './Components/Layout/Scroll/Scroll'
+
 
 
 

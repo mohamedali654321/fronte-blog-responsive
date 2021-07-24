@@ -1,6 +1,6 @@
 import React from 'react'
 import Blog from './Blog'
-import Newsletter from './Newsletter'
+import Newsletter from '../NewsLetter/Newsletter'
 
 function MainPage() {
     return (

@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import axios from 'axios'
-import Card from './Card'
-import FilterBar from './FilterBar'
+import Card from '../Card/Card'
+
 import './Blog.css'
 import { Link, useHistory, useLocation } from 'react-router-dom'
-import NewsLetter from './Newsletter'
+
+import Navbar from 'kware-react-helper'
 export default function Blog() {
 
     const query = new URLSearchParams(useLocation().search);
@@ -78,17 +79,19 @@ useEffect(()=>{
 
     return (
         <div>
-      <div className="styles_container__163CK">
-        <div className="styles_maxWidth__4Sa58">
-          <div className="styles_wrapper__ucHyy">
-            <div className="styles_innerWrapper__18waN">
+      <div className="styles_container_blog">
+    
+             
+        <div className="styles_background_blog">
+          <div className="styles_wrapper">
+            <div className="styles_innerWrapper">
               <div
-                className="styles_LabelTitleText__1RD_E styles_hero__3if6L styles_center__2_RcD"
+                className="styles_LabelTitleText_blog hero_title_blog  styles_center_align"
                 style={{ opacity: 1 }}
                 
                >
-                <h1 className="typography_Title__15mGG styles_title__1TzMX typography_large__TBB8X themes_dark__3hjQG">
-                  <div className="styles_titleContainer__2TSrx"
+                <h1 className="blog_Title styles_title title-size themes_color">
+                  <div className="titleContainer"
                   data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-delay="300"
@@ -104,7 +107,7 @@ useEffect(()=>{
                           transform:
                             "perspective(1000px) translate3d(0px, 0px, 0px)",
                         }}
-                        className="styles_word__2432z"
+                        
                       >
 
                                       <div class="liq-content">
@@ -112,7 +115,7 @@ useEffect(()=>{
                                         <h2>LibraryThings</h2>
 
                                     </div>
-                        {/* Blog */}
+                        
                       </div>
                     </span>
                   </div>
@@ -120,28 +123,28 @@ useEffect(()=>{
               </div>
             </div>
           </div>
-          <div className="styles_triangle__2V9Rb left">
-            <div className="styles_Triangle__2-wAg left styles_bottom-left__2DonM">
-              <div className="styles_wrapper__CodYq">
-                <div className="styles_dots__2T1ot">
+          <div className="triangle_container ">
+            <div className="triangle  triangle_position">
+              <div className="triangle_wrapper">
+                <div className="dots_triangle">
                   <div
-                    className="styles_ratio__1y_8X"
+                    className="ratio_triangle"
                     style={{ paddingBottom: "30.927835051546392%" }}
                   >
                     <img
-                      className="styles_Img__2JZ2e styles_img__1peOe styles_cover__iPq3e styles_center__1laxx"
+                      className=" styles_img_triangle align_center__img"
                       src="/images/dots.svg"
                       style={{ opacity: 1, visibility: "inherit" }}
                     />
                   </div>
                 </div>
-                <div className="styles_image__2nN29">
+                <div className="styles_image">
                   <div
-                    className="styles_ratio__1y_8X"
+                    className="ratio_triangle"
                     style={{ paddingBottom: "100%" }}
                   >
                     <img
-                      className="styles_Img__2JZ2e styles_img__1peOe styles_cover__iPq3e styles_center__1laxx"
+                      className=" styles_img_triangle  align_center__img"
                       src="/images/triangle.svg"
                       style={{ opacity: 1, visibility: "inherit" }}
                     />
@@ -151,10 +154,10 @@ useEffect(()=>{
             </div>
           </div>
         </div>
-        <div className="styles_AlgoliaArticles__3DXpK">
-          <div className="styles_maxWidth__4Sa58">
-            <div className="styles_wrapper__ucHyy">
-              <div className="styles_innerWrapper__18waN">
+        <div className="articles">
+          <div className="styles_background_blog">
+            <div className="styles_wrapper">
+              <div className="styles_innerWrapper">
 
 
 
@@ -167,36 +170,26 @@ useEffect(()=>{
 
 
 
-                <div className="styles_filterBar__jv2PA">
-                  <div className="styles_multiSelectsWrapper__1WMcO">
-                    <div className="styles_multiSelect__2N3Ep styles_MultiSelect__331Sv">
-                      <div className="styles_buttonContainer__1rAYf styles_buttonContainer__3V0Xl" >
-                        <div className="styles_button__1CLx_ styles_gray__1r7Jg styles_buttonWrapper__TAxYH">
-                          <span
-                            className="styles_shadow__3eyWi"
-                            style={{ opacity: 0 }}
-                          ></span>
+                <div className="styles_filterBar">
+                  <div className="multiSelectsWrapper">
+                    <div className="multiSelect multiSelect_innerWrapper">
+                      <div className=" buttonContainer" >
+                        <div className="styles_button__1CLx_ styles_buttons_bg buttonWrapper">
+                         
                           <div
-                            className="styles_background__2gXxd styles_gray__1r7Jg"
+                            className="styles_background styles_buttons_bg"
                             style={{ transform: "perspective(800px)" }}
                           >
-                            <div
-                              className="styles_hoverCircle__Nns-N"
-                              style={{
-                                opacity: 0,
-                                transform:
-                                  "perspective(15px) translate3d(0px, 0px, -90px)",
-                              }}
-                            ></div>
+                         
                           </div>
-                          <button className="styles_buttonLink__2SP9n typography_Button__3B09N styles_button__39WQl" onClick={showCategory}>
-                            <div className="typography_Text__21fWd styles_label__1edzn typography_smaller__2CuhM themes_bay-blue__339Mw">
+                          <button className="buttonLink  styles_button_category" onClick={showCategory}>
+                            <div className="styles_blog_text styles_blog_label styles_blog_smallText styles_blog_textColor">
                               Categories
                             </div>
                             <svg
                               fill="none"
                               viewBox="0 0 10 6"
-                              className="styles_arrow__2ystB"
+                              className="category_arrow"
                             >
                               <path
                                 fill="#74E4A2"
@@ -241,7 +234,7 @@ useEffect(()=>{
                       
                     </div>
                   </div>
-                  <div className="styles_InputText__450nG   styles_search__2juEn withIcon"
+                  <div className="InputText_search   searchText "
                   
                   >
                   
@@ -249,7 +242,7 @@ useEffect(()=>{
                     <svg
                       viewBox="0 0 14 14"
                       fill="none"
-                      className="styles_icon__2MJKl"
+                      className="styles_icon_search"
                     >
                       <path
                         clip-rule="evenodd"
@@ -274,9 +267,9 @@ useEffect(()=>{
 
 
 
-                <div className="styles_tagsResults__1UMb0">
-                  <div className="styles_tagsWrapper__Cw-Pg"></div>
-                  <p className="typography_Text__21fWd styles_results__1_39O typography_small__wcwpx themes_gray__rNovr">
+                <div className="tagsResults">
+                  <div className="tagsWrapper"></div>
+                  <p className="styles_blog_text results small_tags_text styles_blog_textColor">
                     <span>
                       Showing {visible <= card.length ? visible : card.length}{" "}
                       of {card.length} Blog Posts
@@ -284,10 +277,10 @@ useEffect(()=>{
                   </p>
                 </div>
                 <div
-                  className="styles_CardsGrid__2pV6O styles_isList__3Xc-G"
+                  className="CardsGrid "
                   style={{ opacity: 1 }}
                 >
-                  {card.slice(0, visible).map((item) => (
+                  {card.slice(0, visible).map((item,index) => (
                     <Card
                       image={item.image ? item.image : null}
                       tag={item.categories.length >= 0 ? item.categories : null}
@@ -297,44 +290,34 @@ useEffect(()=>{
                       publishDate={item.publishDate}
                       slug={item.slug}
                       translator={item.translator ? item.translator : null}
-                     
+                      index={index}
                       delay={item.id}
                     />
                   ))}
                 </div>
-                <div className="styles_buttonContainer__1rP_U"
+                <div className="buttonContainer_showMore"
                  data-aos="zoom-in"
                  data-aos-offset="200"
                  data-aos-delay="200"
                  data-aos-once="true"
                 >
-                  <div className="styles_button__1GlNg styles_buttonContainer__3V0Xl">
-                    <div className="styles_button__1CLx_ styles_gray__1r7Jg">
-                      <span
-                        className="styles_shadow__3eyWi"
-                        style={{ opacity: 0 }}
-                      ></span>
+                  <div className="button_showMore buttonContainer">
+                    <div className="styles_button__1CLx_ styles_buttons_bg">
+                     
                       <div
                       
-                        className="styles_background__2gXxd styles_gray__1r7Jg"
+                        className="styles_background styles_buttons_bg"
                         style={{ transform: "perspective(800px)" }}
                       >
-                        <div
-                          className="styles_hoverCircle__Nns-N"
-                          style={{
-                            opacity: 0,
-                            transform:
-                              "perspective(15px) translate3d(0px, 0px, -90px)",
-                          }}
-                        ></div>
+                       
                       </div>
                       <Link
-                        className="styles_buttonLink__2SP9n typography_Button__3B09N"
+                        className="buttonLink "
                         onClick={showMoreItems}
                       >
                         See more
                         <svg
-                          className="styles_SmallArrow__i7hnM styles_smallArrow__25_zn styles_gray__1hLfy right"
+                          className="styles_SmallArrow SmallArrowstyles  "
                           viewBox="0 0 11 12"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
