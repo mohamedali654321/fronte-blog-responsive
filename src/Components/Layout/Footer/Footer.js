@@ -56,13 +56,13 @@ function Footer() {
   return (
     <footer class="footerContainer">
       <div class="fullWidthBanner">
-        <div class="footer-background">
+      <div class="footer_img_background">
           <div
-            class="footer-ratio"
+            class="footer_imgRatio"
             style={{ paddingBottom: "100.67114093959732%" }}
           >
             <img
-              class="styles_Img__2JZ2e styles_img__1peOe styles_cover__iPq3e styles_center__1laxx"
+              class=" footerImage  "
               src="https://strapi.io/_next/static/images/05cae2bf306c44b4a82fda253514822e.svg"
               style={{ opacity: 1, visibility: "inherit" }}
             />
