@@ -1,40 +1,83 @@
 import React from 'react'
+import ProductResource from './Products/ProductResource/ProductResource'
+import Navigation from './Products/Navigation/Navigation'
+import SearchBar from './Products/SearchBar/SearchBar'
+import Learn from './Products/Learn/Learn'
+import Community from './Products/Community/Community'
+import ChangeLog from './Products/ChangeLog/ChangeLog'
+
 import './Products.css'
 
 function Products() {
     return (
-        <div className="containers">
-            <div className="featuresHero">
-                <div className="heroContainer">
-                    <div className="featureMaxWidth">
-                        <div className="heroWrapper">
-                            <div className="InnerHeroWrapper">
-                                <div className="heroLabelTitle">
-                                    <div className="typography_Label">
-                                       <span className="featureLabel">Products</span>
-                                    </div>
-                                    <h1 className="typography_Title">
-                                    <span className="typography_TitleContainer">Unlock the full potential of content management</span>
+        <div class="productContainer">
+         <SearchBar/>
+          <div class="productWrapper productInnerWrapper">
+            <div class="productCenterContainer">
+           
+               
+               
+                 
+                  <Navigation/>
+                  <div class="productCenterWrapper">
 
- 
-                                    </h1>
-                                        
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="triangleImage"></div>
-                        <div className="mainImage"></div>
+                          <ProductResource/>
+                          <Learn/>
+                          <ChangeLog/>
+                          <Community/>
 
 
 
 
-                    </div>
 
 
-                </div>
 
+
+
+
+
+
+                          
+
+                  
+
+                 
+                
+
+
+              
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+                
+                  </div>  
             </div>
+          </div>
         </div>
     )
 }

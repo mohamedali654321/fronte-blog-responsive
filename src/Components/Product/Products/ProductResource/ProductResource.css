@@ -1,0 +1,207 @@
+.productResourceContainer {
+    margin-top: 84px;
+  }
+  .productResource_LabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+
+  .productResource_LabelTitleText.productResourceText_wrapper {
+    margin-bottom: 39px;
+  }
+ 
+  .productResource_LabelTitleText.productResourceText_wrapper
+     {
+    margin-bottom: 40px;
+  }
+
+
+  .productResource_LabelTitleText
+     {
+    justify-content: center;
+  }
+  @media (min-width: 992px) {
+    .productResource_LabelTitleText
+       {
+      justify-content: flex-start;
+    }
+  }
+
+  .productResource_intro {
+    margin-bottom: 64px;
+  }
+  .productResourceLabel {
+    font-family: Poppins, serif;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  @media (min-width: 992px) {
+    .productResourceLabel {
+      font-size: 13px;
+    }
+  }
+  .productResourceLabel.productResourceTitle_fontSize {
+    font-size: 17px;
+  }
+
+  .productResourceLabel_style,
+  .productResourceText_wrapper,
+  .productResourceTitle_style {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+  .productResourceLabel_style {
+    margin-bottom: 40px;
+  }
+
+  .productResourceLabel_color {
+    color: #8c4bff;
+  }
+
+  .styles_button__yOgzu,
+  .productResourceLabelWords {
+    opacity: 0;
+    will-change: opacity, transform;
+  }
+
+  .productResourceTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .productResourceTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+  .productResourceTitle{
+    font-size: 43px;
+  }
+  @media (min-width: 992px) {
+    .productResourceTitle {
+      font-size: 53px;
+    }
+  }
+  .productResourceTitle.productResourceTitle_fontSize {
+    font-size: 33px;
+    line-height: 1.19;
+  }
+  @media (min-width: 992px) {
+    .productResourceTitle.productResourceTitle_fontSize {
+      font-size: 43px;
+    }
+  }
+  .productResourceTitle {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .productResourceTitle {
+      font-size: 21px;
+    }
+  }
+ 
+  .productResourceTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+ 
+
+  .productResourceTitle_color {
+    color:  #8D1CB8;
+  }
+
+  .productResourceTitleContainer {
+    position: relative;
+  }
+
+  .productResourceText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .productResourceText {
+      font-size: 17px;
+    }
+  }
+  .productResourceText {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .productResourceText{
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  @media (min-width: 992px) {
+    .productResourceText {
+      font-size: 17px;
+    }
+  }
+
+
+
+  .productResourceText_style {
+    font-family: Poppins, serif;
+    word-break: break-word;
+    white-space: pre-line;
+  }
+ 
+
+  .productResourceText_wrapper {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .productResourceText_wrapper {
+      padding: 0;
+    }
+  }
+  .productResourceText_color {
+    color:  #b047da;
+  }
+
+  .productCardGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 23px;
+  }
+  /* @media (min-width: 992px) {
+    .productCardGrid {
+      grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
+    }
+  } */
+
+
+
+  @media (min-width: 992px) {
+    .productCardGrid {
+     
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1200px) {
+    .productCardGrid {
+      grid-template-columns: repeat(3, minmax(25%, 1fr));
+    }
+  }
+  @media (min-width: 768px) {
+    .productCardGrid.styles_singleColumnOnTablet__1CxJs {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .productResourceLabel_style:last-child,
+ 
+  .productResourceText_wrapper:last-child,
+  .productResourceTitle_style:last-child {
+    margin-bottom: 0;
+  }

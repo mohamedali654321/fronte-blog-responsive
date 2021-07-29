@@ -1,0 +1,178 @@
+.SearchBarContainer {
+  
+    padding: 15px 0;
+    border-top: 1px solid #eaf2fa;
+    border-bottom: 1px solid #eaf2fa;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    z-index: 1;
+  }
+  .SearchBarContainer {
+     /* z-index: 1001;  */
+    margin-top: 100px;
+    
+  }
+
+  @media (max-width: 992px) {
+    .SearchBarContainer {
+       z-index: 1001;  
+     margin-top: 100px;
+     
+   }
+    
+  }
+
+
+  .SearchBarContainer .SearchBarContent {
+    display: flex;
+    align-items: center;
+    z-index: -1;
+  }
+  .SearchBarContainer .SearchBarTitle {
+    display: none;
+    min-width: 215px;
+  }
+  @media (min-width: 992px) {
+    .SearchBarContainer .SearchBarTitle {
+      display: block;
+    }
+  }
+  .SearchBarContainer .SearchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6fafe;
+    border: 1px solid #eaf2fa;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+  }
+  @media (min-width: 1200px) {
+    .SearchBarContainer .SearchContainer {
+      flex: 0 1 auto;
+      margin-left: 60px;
+      
+     
+    }
+  }
+  .SearchBarContainer .SearchContainer .SearchContainerLeft {
+    display: flex;
+    align-items: center;
+  }
+  .SearchBarContainer .SearchContainer .SearchIcone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+
+  .SearchBarWrapper {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+ 
+  .SearchBarWrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  .SearchBarTitleWrapper {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .SearchBarTitleWrapper {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+ 
+  .SearchBarTitleWrapper.SearchBarTitle_small {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .SearchBarTitleWrapper.SearchBarTitle_small {
+      font-size: 21px;
+    }
+  }
+ 
+
+
+  .SearchBarTitleWrapper {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .SearchBarTitleWrapper {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+ 
+  .SearchBarTitleWrapper.SearchBarTitle_small {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .SearchBarTitleWrapper.SearchBarTitle_small {
+      font-size: 21px;
+    }
+  }
+
+
+  .SearchBarTitleWrapper.SearchBarTitle_small {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .SearchBarTitleWrapper.SearchBarTitle_small {
+      font-size: 21px;
+    }
+  }
+  .SearchInner_title.SearchBarTitle_small {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  @media (min-width: 992px) {
+    .SearchInner_title.SearchBarTitle_small {
+      font-size: 15px;
+    }
+  }
+  .SearchInner_color {
+    color: #8D1CB8;
+  }
+  .SearchBarTitle_themes_color {
+    color: #8D1CB8;
+  }
+
+
+  .SearchInner_title {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .SearchInner_title {
+      font-size: 17px;
+    }
+  }
+  

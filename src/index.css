@@ -37,9 +37,6 @@ a{
   font-weight: 600;
 }
 
-a:hover{
-  color: #6823df;
-}
 
 ::-webkit-scrollbar{
   width: 10px;

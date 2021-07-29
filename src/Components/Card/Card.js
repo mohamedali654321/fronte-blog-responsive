@@ -26,7 +26,8 @@ function Card(props) {
 
         data-aos="zoom-in"
         data-aos-offset="200"
-        data-aos-delay={`200+(${props.index}*100)`}
+        data-aos-delay={`${props.index}*200`}
+        
         data-aos-once="true"
        
         

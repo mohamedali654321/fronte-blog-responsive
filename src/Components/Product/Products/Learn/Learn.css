@@ -1,0 +1,154 @@
+.learnContainer {
+  margin-top: 84px;
+}
+
+.learnLabelTitleText {
+  opacity: 0;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .learnLabelTitleText {
+    justify-content: flex-start;
+  }
+}
+
+.learnTitle_intro {
+  margin-bottom: 64px;
+}
+.Learn_Title {
+  font-family: Poppins, serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 140%;
+}
+@media (min-width: 992px) {
+  .Learn_Title {
+    font-size: 33px;
+    line-height: 56px;
+  }
+}
+.Learn_Title {
+  font-size: 43px;
+}
+@media (min-width: 992px) {
+  .Learn_Title {
+    font-size: 53px;
+  }
+}
+
+
+
+.Learn_Title_style {
+  text-align: left;
+}
+
+
+.Learn_Text,
+.Learn_Title_style {
+  text-align: left;
+  transform: translateZ(1000px);
+}
+
+.Learn_Title_style {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.Learn_Title.Learn_Title_small {
+  font-size: 33px;
+  line-height: 1.19;
+}
+@media (min-width: 992px) {
+  .Learn_Title.Learn_Title_small {
+    font-size: 43px;
+  }
+}
+.typography_Label__1knAy.Learn_Title_small {
+  font-size: 17px;
+}
+.Learn_Title_color {
+  color: #8D1CB8;
+}
+
+.Learn_TextContainer {
+  font-family: Poppins, serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  .Learn_TextContainer {
+    font-size: 17px;
+  }
+}
+.Learn_TextContainer {
+  font-size: 17px;
+  line-height: 1.5;
+}
+@media (min-width: 992px) {
+  .Learn_TextContainer {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Learn_TextContainer {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Learn_TextContainer{
+    font-size: 15px;
+  }
+}
+
+
+
+.Learn_Text_color {
+  color: #8c4bff;
+}
+
+.Learn_titleContainer {
+  position: relative;
+}
+
+
+
+.Learn_Text_style {
+  font-family: Poppins, serif;
+  word-break: break-word;
+  white-space: pre-line;
+}
+
+.Learn_Text {
+  padding: 0 6px;
+  margin-bottom: 57px;
+}
+@media (min-width: 992px) {
+  .Learn_Text {
+    padding: 0;
+  }
+}
+
+.Learn_GridLinks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 23px;
+}
+@media (min-width: 768px) {
+  .Learn_GridLinks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .Learn_GridLinks {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+

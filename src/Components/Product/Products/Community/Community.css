@@ -1,0 +1,131 @@
+.communityContainer {
+    margin-top: 84px;
+  }
+  .communityLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+  .communityLabelTitleText_intro {
+    margin-bottom: 64px;
+  }
+  .communityTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .communityTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+  .communityTitle {
+    font-size: 43px;
+  }
+  @media (min-width: 992px) {
+    .communityTitle {
+      font-size: 53px;
+    }
+  }
+  .communityTitle.communityTitle_small {
+    font-size: 33px;
+    line-height: 1.19;
+  }
+  @media (min-width: 992px) {
+    .communityTitle.communityTitle_small {
+      font-size: 43px;
+    }
+  }
+
+
+  
+ 
+  
+
+  .communityText_style,
+  .communityTitle_style {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+  .communityText_style:last-child,
+  .communityTitle_style:last-child {
+    margin-bottom: 0;
+  }
+
+  .communityText_style {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .communityText_style {
+      padding: 0;
+    }
+  }
+.communityTitle_style {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+  .communityTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .communityTitle_style:last-child {
+    margin-bottom: 0;
+  }
+
+  .communityTitle.communityTitle_small {
+    font-size: 33px;
+    line-height: 1.19;
+  }
+  @media (min-width: 992px) {
+    .communityTitle.communityTitle_small {
+      font-size: 43px;
+    }
+  }
+
+  .typography_Label__1knAy.communityTitle_small {
+    font-size: 17px;
+  }
+  .communityTitle_color {
+    color: #8D1CB8;
+  }
+  .communityTitleContainer {
+    position: relative;
+  }
+  .communityTitleWords {
+    opacity: 0;
+    will-change: opacity, transform;
+  }
+  .communityText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .communityText {
+      font-size: 17px;
+    }
+  }
+ 
+  .communityText_rich {
+    font-family: Poppins, serif;
+    word-break: break-word;
+    white-space: pre-line;
+  }
+  .communityText_color {
+    color: #8c4bff;
+  }
+  
+  .communitySliceGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 23px;
+    margin-bottom: 48px;
+  }
+  @media (min-width: 768px) {
+    .communitySliceGrid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

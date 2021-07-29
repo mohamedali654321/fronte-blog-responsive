@@ -1,0 +1,202 @@
+.modalSearch_SearchResults {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(90, 90, 90, 0.3);
+    z-index: 1001;
+    
+    
+  }
+  @media (min-width: 992px) {
+    .modalSearch_SearchResults {
+      padding: 80px 0;
+      
+    }
+  }
+  .modalSearch_SearchResults .modalSearch_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px 8px 20px 20px;
+    background-color: #f6fafe;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  @media (min-width: 992px) {
+    .modalSearch_SearchResults .modalSearch_wrapper {
+      width: 80%;
+      max-width: 735px;
+      min-height: 250px;
+      max-height: 700px;
+      border-radius: 10px;
+    }
+  }
+  .modalSearch_SearchResults .modalSearch_InputText {
+    display: flex;
+  }
+  .modalSearch_SearchResults .modalSearch_inputButton {
+    border: none;
+    background: none;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  .modalSearch_SearchResults .modalSearchContent {
+    margin-top: 30px;
+    padding-right: 12px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .modalSearch_SearchResults .modalSearchContent::-webkit-scrollbar {
+    width: 4px;
+  }
+  .modalSearch_SearchResults
+    .modalSearchContent::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .modalSearch_SearchResults
+    .modalSearchContent::-webkit-scrollbar-thumb {
+    height: 223px;
+    background: rgba(146, 160, 196, 0.4);
+    border-radius: 5px;
+    -webkit-transition: background 0.15s ease;
+    transition: background 0.15s ease;
+  }
+  .modalSearch_SearchResults
+    .modalSearchContent::-webkit-scrollbar-thumb:hover {
+    background: rgba(146, 160, 196, 0.8);
+  }
+  
+ 
+  .modalSearch_SearchResults .styles_icon__GpIRs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    border-radius: 4px;
+  }
+  
+
+  .modalSearch_SearchResults .modalSearch_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px 8px 20px 20px;
+    background-color: #f6fafe;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  @media (min-width: 992px) {
+    .modalSearch_SearchResults .modalSearch_wrapper {
+      width: 80%;
+      max-width: 735px;
+      min-height: 250px;
+      max-height: 700px;
+      border-radius: 10px;
+    }
+  }
+  .modalSearch_InputText_style {
+    width: calc(100% - 12px);
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #8c4bff;
+    border-radius: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  }
+  .modalSearch_InputText_style:focus-within {
+    background-color: #fff;
+  }
+  .modalSearch_InputText_style:focus-within input {
+    color: #8D1CB8;
+  }
+ 
+  .modalSearch_InputText_style:focus-within input::placeholder {
+    color: #1d1b84;
+  }
+  .modalSearch_InputText_style input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 0;
+    margin: 0 0 0 10px;
+    padding: 0;
+    outline: none;
+    width: 100%;
+  }
+
+
+  @media (min-width: 992px) {
+    .modalSearch_InputText_style input {
+      font-size: 13px;
+    }
+  }
+  .modalSearch_InputText_style .modalSearch_InputIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modalSearchText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .modalSearchText {
+      font-size: 17px;
+    }
+  }
+
+  .modalSearchText.modalSearchContent_small {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  @media (min-width: 992px) {
+    .modalSearchText.modalSearchContent_small {
+      font-size: 17px;
+    }
+  }
+
+  .modalSearchText.modalSearchText_small {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  @media (min-width: 992px) {
+    .modalSearchText.modalSearchText_small {
+      font-size: 13px;
+    }
+  }
+  .typography_Title__15mGG.modalSearchText_small {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  
+
+  .modalSearchText_color {
+    color: #8D1CB8;
+  }
+  .modalSearchContent_noResults {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .modalSearchContent_noResults .modalSearchContent_noResultsIcon {
+    margin-bottom: 18px;
+  }
+ 
+  

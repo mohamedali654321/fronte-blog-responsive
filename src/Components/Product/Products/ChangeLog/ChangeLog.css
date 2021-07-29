@@ -1,0 +1,222 @@
+.changeLogContainer {
+    margin-top: 84px;
+  }
+  .changeLogLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+ 
+  .changeLogLabelTitleText_intro {
+    margin-bottom: 100px;
+  }
+
+  .changeLogLTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .changeLogLTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+
+  .changeLogLTitle.changeLogLTitle_small {
+    font-size: 33px;
+    line-height: 1.19;
+  }
+  @media (min-width: 992px) {
+    .changeLogLTitle.changeLogLTitle_small {
+      font-size: 43px;
+    }
+  }
+
+
+  .changeLogLTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  
+  .changeLogLText_style,
+  .changeLogLTitle_style {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+  .changeLogLTitle_small {
+    font-size: 17px;
+  }
+  .changeLogLTitle_color {
+    color: #8D1CB8;
+  }
+  .changeLogLTitleContainer {
+    position: relative;
+  }
+  .changeLogLTitleContainer_word {
+    opacity: 0;
+    will-change: opacity, transform;
+  }
+  .changeLogLText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .changeLogLText {
+      font-size: 17px;
+    }
+  }
+ 
+
+  .changeLogLTextRich {
+    font-family: Poppins, serif;
+    word-break: break-word;
+    white-space: pre-line;
+  }
+
+  .changeLogLText_style {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .changeLogLText_style {
+      padding: 0;
+    }
+  }
+  .changeLogLText_color {
+    color: #8c4bff;
+  }
+  .styles_label__1ilIC:last-child,
+  .changeLogL_links:last-child,
+  .changeLogLText_style:last-child,
+  .changeLogLTitle_style:last-child {
+    margin-bottom: 0;
+  }
+  .changeLogL_links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    flex-direction: column;
+  }
+  @media (min-width: 992px) {
+    .changeLogL_links {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  
+  .changeLogL_link {
+    margin: 0 auto 15px 0;
+    width: 100%;
+    list-style: none;
+  }
+  @media (min-width: 992px) {
+    .changeLogL_link {
+      width: auto;
+      margin-right: 35px;
+      margin-bottom: 0;
+    }
+    .changeLogL_link:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .changeLogLink_button {
+    width: 100%;
+  }
+ 
+  @media (min-width: 768px) {
+    .changeLogLink_button {
+      width: auto;
+    }
+  }
+  .changeLogLink_buttonContainer {
+    display: inline-block;
+  }
+ 
+  .changeLogLink_buttonContainer .changeLogLink_button_style {
+    background-color: transparent;
+  }
+ 
+  .changeLogLink_button_style {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    transform: translateZ(900px);
+    
+  }
+  .changeLogLink_button_style:hover{
+    transform: scale(1.03) perspective(1000px);
+  }
+  @media (min-width: 768px) {
+    .changeLogLink_button_style {
+      width: auto;
+    }
+  }
+
+  .changeLogLink_buttonBackground
+  {
+    border-radius: 8px;
+  }
+  .changeLogLink_buttonBackground {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: border 0.2s ease;
+    box-sizing: border-box;
+  }
+  .changeLogLink_buttonBackground
+   {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+  }
+  .changeLogLink_buttonBackground,
+  .styles_shadow__3eyWi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+  }
+  .changeLogLink_buttonBackgroundColor {
+    background-color: #8c4bff;
+    color: #fff;
+  }
+  .changeLogLink_button_Link {
+    color: inherit;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    padding: 18px 40px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateZ(1000px);
+  }
+ 
+  .styles_small-padding__s-tUZ .changeLogLink_button_Link {
+    padding: 15px 14px;
+  }
+  .changeLogLink_button_text {
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+ 
+
+  
+ 

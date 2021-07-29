@@ -1,0 +1,154 @@
+.socialCardContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 32px 16px 24px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  @media (min-width: 992px) {
+    .socialCardContainer {
+      padding: 32px 50px 24px;
+    }
+  }
+  .socialCardContainer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+ 
+  .socialCardContainer.socialCardWrapper {
+    background: linear-gradient(329.71deg, #a06aff 0.26%, #9a4bff 88.8%);
+  }
+  .socialCardContainer.socialCardWrapper:after {
+    background-image: url(https://strapi.io/assets/icons/socials-grid-background-purple.svg);
+  }
+  .socialCardContainer .socialCard_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 72px;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 24px;
+    position: relative;
+  }
+  .socialCardContainer .socialCard_iconBackground_ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 100%;
+    z-index: 0;
+  }
+  .socialCardContainer
+    .socialCard_iconBackground_.socialCardWrapper {
+    background-color: #773ae7;
+  }
+ 
+  .socialCardContainer .socialCard_iconImg {
+    width: auto;
+    max-width: 40px;
+    z-index: 1;
+  }
+  
+  .socialCardContainer .socialCardButton_WrapperLink {
+    padding: 18px 20px;
+  }
+  .socialCardButtonContainer {
+    display: inline-block;
+    z-index: 1;
+  }
+  .socialCardButtonContainer .socialCardButton_innerWrraper {
+    background-color: transparent;
+  }
+  .socialCardButtonContainer:hover{
+    transform: scale(1.03);
+  }
+ 
+  .socialCardButtonContainer.socialCardButtonFullWidth {
+    width: 100%;
+  }
+  .socialCardButton_innerWrraper.socialCardButtonFullWidth {
+    display: block;
+  }
+  .socialCardButton_innerWrraper {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    transform: translateZ(900px);
+  }
+  @media (min-width: 768px) {
+    .socialCardButton_innerWrraper {
+      width: auto;
+    }
+  }
+ 
+  .socialCardButton_innerWrraper.socialCardButtonFullWidth {
+    display: block;
+  }
+
+  .socialCardButton_gradientPurpl {
+    background-color: #773ae7;
+    color: #fff;
+  }
+ 
+  .socialCardButton_background,
+  .styles_shadow__3eyWi {
+    border-radius: 8px;
+  }
+  .socialCardButton_background {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: border 0.2s ease;
+    box-sizing: border-box;
+  }
+  .socialCardButton_background,
+  .styles_shadow__3eyWi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+  }
+
+  .socialCardButton_buttonLink {
+    color: inherit;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    padding: 18px 40px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateZ(1000px);
+  }
+
+  .styles_small-padding__s-tUZ .socialCardButton_buttonLink {
+    padding: 15px 14px;
+  }
+  .socialCardButton_style {
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  

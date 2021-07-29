@@ -12,6 +12,7 @@ function NewsLetter() {
                   <div className="NewsletterContent">
                     <h3 className="NewsletterTitle Newslettertitle_position Newslettertitle_text Newslettertitle_color">
                       Join our Newsletter</h3>
+                    
                   </div>
                   <form className="NewsletterForm"><input type="email"
                       className="styles_Input emailInput" name="email" value=""

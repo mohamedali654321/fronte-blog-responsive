@@ -1,0 +1,119 @@
+.communityLinkContainer {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    transition:.2s cubic-bezier(0.2, 0.82, 0.2, 1);
+  }
+
+  .communityLinkContainer:hover{
+    transform: scale(1.03);
+  }
+
+  .communityLinkContainer.communityLinkContainer_fullBackground {
+    position: relative;
+    align-items: center;
+  }
+  .communityLinkContainer.communityLinkContainer_fullBackground
+    .communityLink_icon {
+    position: static;
+    margin: 0;
+  }
+  .communityLinkContainer.communityLinkContainer_fullBackground
+    .communityLink_textContent {
+    padding: 18px 18px 18px 0;
+    box-sizing: border-box;
+  }
+  .communityLink_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 72px;
+    width: 72px;
+    height: 72px;
+    margin-right: 16px;
+    position: relative;
+  }
+
+  .communityLink_iconBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: #f6fafe;
+    border: 1px solid #eaf2fa;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  .communityLink_iconImg {
+    width: auto;
+    max-width: 40px;
+  }
+  .communityLink_textContent {
+    flex: 1 1;
+    padding-top: 4px;
+  }
+
+  .communityLinkTitleContainer {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .communityLinkTitleContainer {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+  
+  .communityLinkTitleContainer.communityLinkText_small {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .communityLinkTitle_style {
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .communityLinkTitleContainer.communityLinkText_small {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .communityLinkTextContainer.communityLinkText_small {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  @media (min-width: 992px) {
+    .communityLinkTextContainer.communityLinkText_small {
+      font-size: 13px;
+    }
+  }
+  .communityLinkTitle_color {
+    color: #8D1CB8;
+  }
+  .communityLinkTextContainer {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .communityLinkTextContainer {
+      font-size: 17px;
+    }
+  }
+  
+  .communityLinkTextContainer.communityLinkText_small {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .communityLinkText_style {
+    margin-top: 4px;
+  }
+
+  .communityLinkText_color {
+    color: #8c4bff;
+  }
