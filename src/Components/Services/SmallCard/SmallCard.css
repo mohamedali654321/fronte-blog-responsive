@@ -1,0 +1,252 @@
+.SmallCardContainer {
+    position: relative;
+    display: flex;
+    transform: translateZ(1000px);
+    width: 100%;
+    transition: .4s cubic-bezier(0.2, 0.82, 0.2, 1) !important;
+  }
+
+  .SmallCardContainer_style {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    list-style: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .SmallCardContainer:hover{
+    transform: scale(1.04) !important;
+  }
+  .SmallCard_background,
+  .SmallCard_backgroundContainer_ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .SmallCard_background {
+    border-radius: 10px;
+    background: #fff;
+  }
+  .SmallCard_background.SmallCard_backgroundShadow {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+  }
+ 
+
+  
+  
+  .SmallCard_cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+  }
+  
+  .SmallCard_cardContent {
+    display: flex;
+    flex: 1 1;
+  }
+  .smallCard_PictureContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 24px 32px;
+    width: 100%;
+  }
+
+  .smallCard_logo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 144px;
+    max-height: 53px;
+    margin-bottom: 24px;
+    align-self: center;
+  }
+
+  .smallCard_ratio {
+    position: relative;
+    width: 100%;
+  }
+  .smallCard_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    
+    
+  }
+  .smallCardTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .smallCardTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+
+  .smallCardTitle.smallCardText_fontSize {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .smallCardTitle.smallCardText_fontSize {
+      font-size: 21px;
+    }
+  }
+  .smallCardTitle.smallCardTitle_fontSize {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .smallCardText.smallCardTitle_fontSize {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  @media (min-width: 992px) {
+    .smallCardText.smallCardTitle_fontSize {
+      font-size: 13px;
+    }
+  }
+
+  .smallCardTitle_color {
+    color: #8D1CB8;
+  }
+
+  .smallCardText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .smallCardText {
+      font-size: 17px;
+    }
+  }
+ 
+  .smallCardText.smallCardText_fontSize {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  @media (min-width: 992px) {
+    .smallCardText.smallCardText_fontSize {
+      font-size: 15px;
+    }
+  }
+  .smallCardText.smallCardTitle_fontSize {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  @media (min-width: 992px) {
+    .smallCardText.smallCardTitle_fontSize {
+      font-size: 13px;
+    }
+  }
+
+  .smallCardText_description {
+    margin-top: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  
+  .smallCardTitle_style {
+    font-weight: 600;
+  }
+
+  .smallCardText_color {
+    color: #9c45da;
+  }
+  
+  .smallCardLink_container {
+    transform-style: preserve-3d;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 22px 24px 35px;
+    margin-top: auto;
+    box-sizing: border-box;
+  }
+  .smallCardLink_container .smallCardLink_line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #e7edf1;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  
+  .smallCardLink_ArrowLink {
+    text-decoration: none;
+  }
+  .smallCardLink_ArrowLink,
+  .smallCardLink_ArrowLink .smallCardLink_Wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  .smallCardLink_ArrowLink:hover .smallCardLink_icon {
+    transform: translateX(5px) translateZ(0);
+  }
+  
+  
+  
+   
+  .smallCardLink_icon:hover .smallCardLink_icon {
+    transform: scaleX(-1) translateX(5px) translateZ(0);
+  }
+
+  .smallCardLink_label {
+    font-family: Poppins, serif;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  @media (min-width: 992px) {
+    .smallCardLink_label {
+      font-size: 13px;
+    }
+  }
+ 
+
+  .smallCardLink_label_color {
+    color: #13bb70;
+  }
+  .smallCardLink_SmallArrow {
+    width: 11px;
+    height: 12px;
+    transform-origin: center;
+  }
+  .smallCardLink_icon {
+    margin-left: 14px;
+    transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    will-change: transform;
+  }
+  .smallCardLink_fillColor path {
+    fill: #13bb70;
+  }

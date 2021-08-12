@@ -43,7 +43,7 @@ const NavBackground = styled.div`
 
 const Icon = styled.span`
   position: relative;
-  background-color: ${(props) => (props.clicked ? "transparent" : "#8D1CB8")};
+  background-color: ${(props) => (props.clicked  ? "transparent" : "#8D1CB8")};
   width: 1.7rem;
   height: 3px;
   display: inline-block;

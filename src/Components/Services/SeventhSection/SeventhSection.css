@@ -1,0 +1,239 @@
+
+  .seventhSection_StackingCards {
+    margin-top: 135px;
+  }
+
+  .seventhSection_slice {
+    margin-top: 84px;
+  }
+  
+
+  .seventhSectionContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .seventhSectionWrapper {
+    padding: 135px 0 105px;
+  }
+
+
+  .seventhSectionWrapper {
+    padding: 70px 0 60px;
+    box-sizing: border-box;
+    background: #ebf4fd;
+    background: linear-gradient(190deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+  @media (min-width: 992px) {
+    .seventhSectionWrapper {
+      padding: 135px 0 105px;
+    }
+  }
+
+
+
+  .seventhSectionWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .seventhSection_innerWrapper,
+  .seventhSectionWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .seventhSection_innerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .seventhSection_innerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .seventhSection_contentWrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+
+  .seventhSectionTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+
+  .seventhSectionTitle.seventhSectionCardTitle_style {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionTitle.seventhSectionCardTitle_style {
+      font-size: 21px;
+    }
+  }
+
+  .seventhSectionTitle_style {
+    margin-bottom: 82px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionTitle_style {
+      padding-right: 50px;
+      margin-bottom: 0;
+      position: sticky;
+      top: 135px;
+      max-width: 357px;
+    }
+  }
+  .seventhSectionCardText_color {
+    color: #9c45da;
+  }
+  .seventhSectionTitle_color {
+    color: #8D1CB8;
+  }
+
+  @media (min-width: 992px) {
+    .seventhSection_cardsContainer {
+      width: 543px;
+    }
+  }
+  .seventhSectionCardContainer {
+    position: sticky;
+    top: 135px;
+  }
+  .seventhSectionCardContainer .seventhSectionCard_cardText {
+    max-width: 330px;
+  }
+  .seventhSectionCardWrapper {
+    box-sizing: border-box;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 33px 21px 16px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionCardWrapper {
+      padding: 60px 68px;
+    }
+  }
+
+  .seventhSectionCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionCardHeader {
+      margin-bottom: 80px;
+    }
+  }
+
+  .seventhSectionCardIconWrapper {
+    min-width: 38px;
+    min-height: 38px;
+    display: block;
+  }
+  .seventhSectionCardIconWrapper .seventhSectionCard_imgContainer {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
+  .seventhSectionCardIcon_Ratio {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .seventhSectionCardIcon_child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .seventhSectionIcon_ratio {
+    position: relative;
+    width: 100%;
+  }
+  .seventhSectionCard_img,
+  .seventhSectionIcon_ratio.seventhSectionIcon_fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .seventhSectionCardText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionCardText {
+      font-size: 17px;
+    }
+  }
+  
+  .seventhSectionCardText.seventhSectionCardTitle_style {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  @media (min-width: 992px) {
+    .seventhSectionCardText.seventhSectionCardTitle_style {
+      font-size: 15px;
+    }
+  }
+
+
+  .seventhSectionCardText.seventhSectionCardStep_style{
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .seventhSectionCardSteps {
+    font-weight: 600;
+  }
+
+
+
+
+
+  .seventhSectionCardTitle {
+    margin-bottom: 20px;
+  }
+
+
+
+  .seventhSectionCardText_style img {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 35px;
+    width: 80%;
+  }
+  .seventhSectionCardText_style iframe {
+    max-width: 100%;
+  }
+  

@@ -1,0 +1,301 @@
+.fristSection_container {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fristSection_slice {
+    margin-top: 84px;
+  }
+
+  .fristSection_TextNextToImage {
+    width: 100%;
+    margin-top: 135px;
+    margin-bottom: 84px;
+  }
+
+  .fristSectionTitleContainer {
+    position: relative;
+  }
+  
+  .fristSection_TextNextToImage:last-child {
+    margin-bottom: 0;
+  }
+  .fristSection_TextNextToImage:last-child .fristSection_gradientHeaderWrapper {
+    padding-bottom: 0;
+  }
+ 
+  .fristSection_gradientLeft .fristSection_Tetris_decoration {
+    transform: translate(-33.3333333333%, -33.3333333333%);
+    left: 0;
+  }
+  .fristSection_gradientLeft .fristSectionWrapper {
+    background: linear-gradient(165deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+  .fristSectionWrapper {
+    padding: 135px 0 105px;
+  }
+
+  .fristSectionWrapper {
+    padding: 70px 0 60px;
+    box-sizing: border-box;
+    background: #ebf4fd;
+    background: linear-gradient(190deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+  @media (min-width: 992px) {
+    .fristSectionWrapper {
+      padding: 135px 0 105px;
+    }
+  }
+
+
+  
+  .fristSectionWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .fristSection_innerWrapper,
+  .fristSectionWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 992px) {
+    .fristSection_mobileInnerWrapperLeftOnly {
+      margin-right: 0;
+      max-width: 1090px;
+      width: 90.8333333333%;
+    }
+  }
+
+  .fristSection_mobileInnerWrapper{
+    width: 81.6666666667%;
+  }
+
+  .fristSection_innerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .fristSection_innerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+  .fristSection_contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateZ(1000px);
+  }
+  @media (min-width: 992px) {
+    .fristSection_contentWrapper {
+      flex-direction: row;
+      margin-right: 70px;
+    }
+  }
+
+  .fristSection_imageWrapper,
+.fristSection_textWrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+.fristSection_textWrapper {
+    padding: 0;
+    flex: 1 1;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .fristSection_textWrapper {
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding-right: 50px;
+      max-width: 380px;
+      box-sizing: border-box;
+    }
+  }
+  
+  .fristSection_textWrapper .fristSectionLabelTitleText_font {
+    font-size: 21px;
+  }
+ 
+
+  .fristSectionLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+  
+
+  .fristSectionTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .fristSectionTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+ 
+.fristSectionText_style
+{
+  text-align: left;
+  transform: translateZ(1000px);
+}
+
+.fristSectionText_style:last-child
+ {
+  margin-bottom: 0;
+}
+
+.fristSectionText.fristSectionTitle_larg {
+  font-size: 17px;
+  line-height: 1.5;
+}
+@media (min-width: 992px) {
+  .fristSectionText.fristSectionTitle_larg {
+    font-size: 17px;
+  }
+}
+
+.fristSectionTitle_color {
+  color: #8D1CB8;
+}
+
+
+.fristSectionText {
+  font-family: Poppins, serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  .fristSectionText {
+    font-size: 17px;
+  }
+}
+
+.fristSectionText_position img {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto 35px;
+  width: 80%;
+}
+
+
+.fristSectionText_style {
+  padding: 0 6px;
+  margin-bottom: 57px;
+}
+@media (min-width: 992px) {
+  .fristSectionText_style {
+    padding: 0;
+  }
+}
+.fristSectionText_color {
+  color: #9c45da;
+}
+
+.fristSection_imageWrapper .fristSection_imageInnerWrapper {
+  width: 100%;
+  
+}
+@media (min-width: 992px) {
+  .fristSection_imageWrapper {
+    flex: 1 0 auto;
+    width: auto;
+  }
+}
+
+.fristSection_imageRatio {
+  position: relative;
+  width: 100%;
+}
+.fristSection_image
+ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.fristSection_Tetris_icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+@media (min-width: 992px) {
+  .fristSection_Tetris_icon {
+    width: 90px;
+    height: 90px;
+  }
+}
+.fristSection_Tetris_icon.fristSection_Tetris_color [class$="tetris-dark-path"] {
+  fill: #7c32ff;
+}
+.fristSection_Tetris_icon.fristSection_Tetris_color [class$="tetris-light-path"] {
+  fill: #8c4bff;
+}
+
+
+.fristSection_Tetris_decoration {
+  position: absolute;
+  top: 0;
+}
+
+
+.fristSection_Triangle_decoration {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: -1;
+}
+.fristSection_Triangle_decoration.fristSection_Triangle_position {
+  flex-direction: row-reverse;
+  bottom: 0;
+  left: 0;
+}
+.fristSection_Triangle_decoration.fristSection_Triangle_position .fristSection_TriangleWrapper {
+  transform: rotate(-90deg);
+  width: 150px;
+}
+
+@media (min-width: 992px) {
+  .fristSection_Triangle_decoration.fristSection_Triangle_position .fristSection_TriangleWrapper {
+    width: 300px;
+  }
+}
+
+
+
+
+.fristSection_Triangle {
+  position: relative;
+}
+.fristSection_Triangle .fristSection_TriangleInnerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.fristSection_Triangle .fristSection_Triangle_img {
+  width: 100%;
+  height: 100%;
+}
+
+.fristSection_Triangle.fristSection_Triangle_top-right .fristSection_Triangle_img {
+  transform: rotate(180deg);
+}
+
+
+
+

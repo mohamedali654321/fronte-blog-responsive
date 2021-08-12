@@ -1,0 +1,328 @@
+.fourthSectionContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fourthSection_slice {
+    margin-top: 84px;
+  }
+  .fourthSection_TextNextToImage {
+    width: 100%;
+    margin-top: 135px;
+    margin-bottom: 84px;
+  }
+  .fourthSection_TextNextToImage:last-child {
+    margin-bottom: 0;
+  }
+  .fourthSection_TextNextToImage:last-child .fourthSection_gradientHeaderWrapper {
+    padding-bottom: 0;
+  }
+
+  .fourthSection_gradient-left .fourthSectionTetris_decoration {
+    transform: translate(-33.3333333333%, -33.3333333333%);
+    left: 0;
+  }
+
+  .fourthSectionTetris_decoration {
+    position: absolute;
+    top: 0;
+  }
+
+  .styles_gradient-right__2o2Bn .fourthSectionTetris_decoration {
+    right: 0;
+    transform: translate(33.3333333333%, -33.3333333333%);
+  }
+  .fourthSection_gradient-left .fourthSectionWrapper {
+    background: linear-gradient(165deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+
+  .fourthSectionWrapper {
+    padding: 135px 0 105px;
+  }
+
+  .fourthSectionWrapper {
+    padding: 70px 0 60px;
+    box-sizing: border-box;
+    background: #ebf4fd;
+    background: linear-gradient(190deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+  @media (min-width: 992px) {
+    .fourthSectionWrapper {
+      padding: 135px 0 105px;
+    }
+  }
+
+ 
+  .fourthSectionWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .fourthSection_innerWrapper,
+  .fourthSectionWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 992px) {
+    .fourthSection_mobileInnerWrapperLeftOnly {
+      margin-right: 0;
+      max-width: 1090px;
+      width: 90.8333333333%;
+    }
+  }
+  .fourthSection_mobileInnerWrapper {
+    width: 81.6666666667%;
+  }
+
+
+  .fourthSection_innerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .fourthSection_innerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+
+  .fourthSection_contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateZ(1000px);
+  }
+  @media (min-width: 992px) {
+    .fourthSection_contentWrapper {
+      flex-direction: row;
+      margin-right: 70px;
+    }
+  }
+
+
+
+
+
+
+
+  .fourthSection_imageWrapper,
+.fourthSection_textWrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fourthSection_imageWrapper .fourthSection_imageInnerWrapper {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .fourthSection_imageWrapper {
+      flex: 1 0 auto;
+      width: auto;
+    }
+  }
+
+.fourthSection_textWrapper {
+    padding: 0;
+    flex: 1 1;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .fourthSection_textWrapper {
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding-right: 50px;
+      max-width: 380px;
+      box-sizing: border-box;
+    }
+  }
+
+  .fourthSection_textWrapper .fourthSectionLabelTitleText_fontSize {
+    font-size: 21px;
+  }
+  .fourthSection_textWrapper .fourthSectionText_quote {
+    margin-top: 100px;
+  }
+  .fourthSection_textWrapper .fourthSection_author {
+    margin-top: 35px;
+  }
+
+
+  .fourthSectionLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+  
+
+  .fourthSectionTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .fourthSectionTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+ 
+  .fourthSectionTitle.fourthSectionText_smallFont {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .fourthSectionTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+ 
+.fourthSectionText_style,
+.fourthSectionTitle_style {
+  text-align: left;
+  transform: translateZ(1000px);
+}
+
+.fourthSectionText_style:last-child,
+.fourthSectionTitle_style:last-child {
+  margin-bottom: 0;
+}
+
+.fourthSectionText_style {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .fourthSectionText_style {
+      padding: 0;
+    }
+  }
+
+
+  .fourthSectionText_color {
+    color: #9c45da;
+  }
+
+
+  .fourthSectionTitle_color {
+    color: #8D1CB8;
+  }
+  .fourthSectionTitleContainer {
+    position: relative;
+  }
+
+
+
+
+
+
+
+  .fourthSectionText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .fourthSectionText {
+      font-size: 17px;
+    }
+  }
+ 
+  .fourthSectionText.fourthSectionText_smallFont {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  @media (min-width: 992px) {
+    .fourthSectionText.fourthSectionText_smallFont {
+      font-size: 13px;
+    }
+  }
+ 
+
+  .fourthSectionPerson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fourthSection_CirclePicture {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #5e709d;
+  }
+
+  .fourthSection_pictureContainer {
+    width: 65px;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  .fourthSection_pictureWrapper {
+    width: 100%;
+  }
+  .fourthSection_pictureRatio {
+    position: relative;
+    width: 100%;
+  }
+  .fourthSection_picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fourthSection_pictureContain{
+    object-fit: contain;
+  }
+
+  .fourthSection_pictureCenter {
+    object-position: center;
+  }
+
+  .fourthSection_pictureCover {
+    object-fit: cover;
+  }
+
+  .fourthSection_authorContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourthSection_authorWrapper .fourthSection_authorName {
+    font-weight: 700;
+  }
+ 
+
+  .fourthSection_authorColor {
+    color: #8c4bff;
+  }
+
+
+  .fourthSectionTetris {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+  @media (min-width: 992px) {
+    .fourthSectionTetris {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  .fourthSectionTetris.fourthSectionTetris_color {
+    fill: #7c32ff;
+  }
+  .fourthSectionTetris.fourthSectionTetris_color [class$="tetris-light-path"] {
+    fill: #8c4bff;
+  }
+ 
+  .fourthSectionTetris_svg {
+    width: 100%;
+    height: 100%;
+  }

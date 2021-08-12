@@ -1,0 +1,348 @@
+.cardPushContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardPushFullWidth {
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    margin-top: 84px;
+  }
+
+
+  .cardPushWrapper:hover{
+    transform: scale(1.04);
+  }
+  .cardPushWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 25px;
+    justify-content: center;
+    box-sizing: content-box;
+    transition: .4s cubic-bezier(0.2, 0.82, 0.2, 1);
+  }
+  @media (min-width: 992px) {
+    .cardPushWrapper {
+      box-sizing: border-box;
+      padding: 50px 50px 125px 185px;
+    }
+  }
+  cardPushWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  
+  cardPushWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardPush_triangleImageWrapper {
+    position: absolute;
+    max-width: 100%;
+    width: 270px;
+    height: 270px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  @media (min-width: 992px) {
+    .cardPush_triangleImageWrapper {
+      width: 389px;
+      height: 389px;
+    }
+  }
+  .cardPush_triangleImage_background {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+  }
+
+  .cardPush_triangleImage {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cardPush_triangleImage.cardPush_triangleImage_bottom-left {
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 0 0);
+  }
+
+  .cardPush_triangleImage_img,
+.cardPush_triangleImage_Ratio.cardPushCard_card_fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.cardPush_triangleImage_Ratio {
+    position: relative;
+    width: 100%;
+  }
+
+  .cardPushArrowLink {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    list-style: none;
+  }
+  .cardPushArrowLink .cardPushArrowLink_pointer {
+    cursor: pointer;
+    outline: none;
+  }
+  @media (min-width: 992px) {
+    .cardPushArrowLink_position .cardPushLink {
+      padding: 30px 55px 30px 75px;
+    }
+  }
+
+
+
+  .cardPushArrowLink_backgroundContainer,
+.cardPushArrowLink_backgroundContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.cardPushArrowLink_backgroundContainer {
+    border-radius: 10px;
+    background: #fff;
+  }
+  .cardPushArrowLink_backgroundContainer.cardPushArrowLink_shadow {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+  }
+
+
+
+
+  .cardPushCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+  }
+  
+  .cardPushCard_cardContent {
+    display: flex;
+    flex: 1 1;
+  }
+
+  .cardPushCard_InnerContent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 38px 35px;
+  }
+
+
+
+  .cardPushCard_cardStyle {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px 35px;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .cardPushCard_cardStyle {
+      flex-direction: row-reverse;
+      min-height: 250px;
+      padding: 22px 55px 22px 75px;
+    }
+    .cardPushCard_cardStyle .cardPushText {
+      max-width: 570px;
+    }
+  }
+  .cardPushCard_cardStyle .cardPushCard_cardImg {
+    position: relative;
+    width: 150px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-right: auto;
+  }
+  @media (min-width: 992px) {
+    .cardPushCard_cardStyle .cardPushCard_cardImg {
+      margin-bottom: 0;
+      margin-right: 0;
+      width: 150px;
+      height: 120px;
+    }
+  }
+
+  .cardPushCard_cardImg {
+    width: 50%;
+    height: 40px;
+    position: relative;
+  }
+
+  .cardPushMinus_fit {
+    object-fit: contain;
+  }
+
+  .cardPushMinus_position {
+    object-position: left;
+  }
+
+
+  .cardPushText {
+    width: 100%;
+  }
+  
+  .cardPushText .cardPushTitle_style {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .cardPushLabel {
+    font-family: Poppins, serif;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  @media (min-width: 992px) {
+    .cardPushLabel {
+      font-size: 13px;
+    }
+  }
+
+  .cardPushLabel_color {
+    color: #13bb70;
+  }
+
+  .cardPushTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .cardPushTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+ 
+  .cardPushTitle.cardPushTitle_fontSize {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .cardPushTitle.cardPushTitle_fontSize {
+      font-size: 21px;
+    }
+  }
+
+
+  .cardPushTitle_color {
+    color: #8D1CB8;
+  }
+
+  .cardPushLink {
+    transform-style: preserve-3d;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 22px 24px 35px;
+    margin-top: auto;
+    box-sizing: border-box;
+  }
+  .cardPushLink .cardPushLine {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #e7edf1;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .cardPushLine_smallArrow {
+    text-decoration: none;
+  }
+  .cardPushLine_smallArrow,
+  .cardPushLine_smallArrow .cardPushCard_innerContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .cardPushLine_smallArrow:hover .cardPushCard_icon {
+    transform: translateX(5px) translateZ(0);
+  }
+  .cardPushLine_smallArrow.cardPushSpreadMobileCenter {
+    width: 100%;
+  }
+  .cardPushLine_smallArrow.cardPushSpreadMobileCenter
+    .cardPushCard_innerContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .cardPushLine_smallArrow.cardPushSpreadMobileCenter
+      .cardPushCard_innerContainer {
+      justify-content: space-between;
+    }
+  }
+ 
+  
+
+
+  .cardPushLine_smallArrowLink {
+    transform-style: preserve-3d;
+    transform: translateZ(1000px);
+  }
+
+  .cardPushCard_arrowSmall {
+    width: 11px;
+    height: 12px;
+    transform-origin: center;
+  }
+
+  .cardPushCard_icon {
+    margin-left: 14px;
+    transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    will-change: transform;
+  }
+  .cardPushCard_icon_color path {
+    fill: #13bb70;
+  }

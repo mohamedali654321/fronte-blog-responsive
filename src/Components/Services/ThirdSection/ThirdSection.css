@@ -1,0 +1,314 @@
+.thirdSectionContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thirdSection_slice {
+    margin-top: 84px;
+  }
+
+  .thirdSection_TextNextToImage {
+    width: 100%;
+    margin-top: 135px;
+    margin-bottom: 84px;
+  }
+  .thirdSection_TextNextToImage:last-child {
+    margin-bottom: 0;
+  }
+  .thirdSection_TextNextToImage:last-child .thirdSectionWrapper_gradientHeaderWrapper {
+    padding-bottom: 0;
+  }
+
+
+  .thirdSection_gradient-left .thirdSectionTetris_decoration {
+    transform: translate(-33.3333333333%, -33.3333333333%);
+    left: 0;
+  }
+
+
+  .thirdSectionTetris_decoration {
+    position: absolute;
+    top: 0;
+  }
+
+  .thirdSection_gradient-left .thirdSectionWrapper {
+    background: linear-gradient(165deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+
+  .thirdSectionContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .thirdSectionWrapper {
+    padding: 70px 0 60px;
+    box-sizing: border-box;
+    background: #ebf4fd;
+    background: linear-gradient(190deg, #ebf4fd, hsla(0, 0%, 100%, 0) 45%);
+  }
+  @media (min-width: 992px) {
+    .thirdSectionWrapper {
+      padding: 135px 0 105px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .thirdSectionWrapper {
+      padding: 135px 0 105px;
+    }
+  }
+
+ 
+
+  .thirdSectionWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .thirdSection_innerWrapper,
+  .thirdSectionWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thirdSection_innerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .thirdSection_innerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+  @media (min-width: 992px) {
+    .thirdSection_mobileInnerWrapperLeftOnly {
+      margin-right: 0;
+      max-width: 1090px;
+      width: 90.8333333333%;
+    }
+  }
+  .thirdSection_mobileInnerWrapper {
+    width: 81.6666666667%;
+  }
+
+  .thirdSection_contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateZ(1000px);
+  }
+  @media (min-width: 992px) {
+    .thirdSection_contentWrapper {
+      flex-direction: row;
+      margin-right: 70px;
+    }
+  }
+  
+  .thirdSection_imageWrapper,
+.thirdSection_textWrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+.thirdSection_textWrapper {
+    padding: 0;
+    flex: 1 1;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .thirdSection_textWrapper {
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding-right: 50px;
+      max-width: 380px;
+      box-sizing: border-box;
+    }
+  }
+ 
+  .thirdSection_textWrapper .thirdSectionLabelTitleText_fontSize {
+    font-size: 21px;
+  }
+
+
+
+  .thirdSectionLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+ 
+  @media (min-width: 992px) {
+    
+      .thirdSectionTitle_style {
+      text-align: left;
+    }
+  }
+
+  .thirdSectionTitle_style {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+
+  .thirdSectionTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  
+.thirdSectionText_style:last-child,
+.thirdSectionTitle_style:last-child {
+  margin-bottom: 0;
+}
+
+
+.thirdSectionText_style,
+.thirdSectionTitle_style {
+  text-align: left;
+  transform: translateZ(1000px);
+}
+
+.thirdSectionText_style {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .thirdSectionText_style {
+      padding: 0;
+    }
+  }
+
+
+  .thirdSectionTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .thirdSectionTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+  
+
+  .thirdSectionTitle_color {
+    color: #8D1CB8;
+  }
+  .thirdSection_titleContainer {
+    position: relative;
+  }
+
+  .thirdSectionText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .thirdSectionText {
+      font-size: 17px;
+    }
+  }
+
+  .thirdSectionText.thirdSectionTitle_fontSize {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  @media (min-width: 992px) {
+    .thirdSectionText.thirdSectionTitle_fontSize {
+      font-size: 17px;
+    }
+  }
+  
+
+  .thirdSectionText_color {
+    color: #9c45da;
+  }
+  .thirdSection_imageWrapper .thirdSection_imageInnerWrapper {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .thirdSection_imageWrapper {
+      flex: 1 0 auto;
+      width: auto;
+    }
+  }
+  .thirdSection_imageRatio {
+    position: relative;
+    width: 100%;
+  }
+  .thirdSection_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .thirdSectionTetris {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+  @media (min-width: 992px) {
+    .thirdSectionTetris {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  .thirdSectionTetris.thirdSectionTetris_color {
+    fill: #7c32ff;
+  }
+  .thirdSectionTetris.thirdSectionTetris_color  {
+    fill: #8c4bff;
+  }
+  
+  .thirdSectionTriangle_decoration {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    z-index: -1;
+  }
+
+ 
+  .thirdSectionTriangle_decoration.thirdSectionTriangle_style {
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    bottom: 0;
+    left: 0;
+  }
+  .thirdSectionTriangle_decoration.thirdSectionTriangle_style .thirdSectionTriangleWrapper {
+    width: 150px;
+  }
+
+  @media (min-width: 992px) {
+    .thirdSectionTriangle_decoration.thirdSectionTriangle_style .thirdSectionTriangleWrapper {
+      width: 300px;
+    }
+  }
+
+
+  .thirdSectionTriangle {
+    position: relative;
+  }
+  .thirdSectionTriangle .thirdSectionTriangleInnerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .thirdSectionTriangle .thirdSectionTriangle_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .thirdSectionTriangle.thirdSectionTriangle_top-right .thirdSectionTriangle_img {
+    transform: rotate(180deg);
+  }
+  

@@ -72,13 +72,13 @@ hamburger.addEventListener('click',()=>{
          
 
           <ul className="links">
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/" className="cool">Home</a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/products" className="cool">Products </a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/services" className="cool">Services </a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/blog" className="cool">Blog</a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/sys-solutions" className="cool">Sys & Solutions </a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}  ><a href="/our-partners" className="cool">Our-Parteners</a></li>
-            <li className={document.location.pathname.length === 1 ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}> <a href="/our-clients" className="cool">Our-Clients</a> </li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services'  ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/" className="cool">Home</a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/products" className="cool">Products </a></li>
+            <li className={document.location.pathname.length === 1  || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/services" className="cool">Services </a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/blog" className="cool">Blog</a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/sys-solutions" className="cool">Sys & Solutions </a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}  ><a href="/our-partners" className="cool">Our-Parteners</a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}> <a href="/our-clients" className="cool">Our-Clients</a> </li>
 
 
           </ul>
