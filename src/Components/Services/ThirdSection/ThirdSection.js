@@ -19,7 +19,7 @@ export default function ThirdSection() {
                   <div class="thirdSection_textWrapper"
             data-aos="zoom-in-up"
             data-aos-offset="200"
-            data-aos-delay="200"
+          
             data-aos-once="true"
             data-aos-duration="500"
                   
@@ -31,7 +31,7 @@ export default function ThirdSection() {
                         class="thirdSectionTitle thirdSectionTitle_style thirdSectionTitle_fontSize thirdSectionTitle_color">
                         <div class="thirdSection_titleContainer"><span
                          data-aos-offset="200"
-            data-aos-delay="100"
+            
             data-aos-once="true"
             data-aos-duration="500"
                         >
@@ -57,7 +57,7 @@ export default function ThirdSection() {
                       <div class="thirdSection_imageRatio" style={{paddingBottom:"95.12937595129375%"}}><img
                              data-aos="zoom-in-left"
             data-aos-offset="200"
-            data-aos-delay="500"
+            
             data-aos-once="true"
             data-aos-duration="700"
                           class=" thirdSection_image "

@@ -26,7 +26,7 @@ class="fristSection_gradient fristSection_slice fristSection_TextNextToImage fri
      data-aos-easing="linear"
      data-aos-duration="1000"
      data-aos-once="true"
-     data-aos-delay="100"
+     
       >
         <div class="fristSectionLabelTitleText fristSectionLabelTitleText_font" style={{opacity: 1}}>
           <h1
@@ -36,7 +36,7 @@ class="fristSection_gradient fristSection_slice fristSection_TextNextToImage fri
      data-aos-easing="linear"
      data-aos-duration="1000"
      data-aos-once="true"
-     data-aos-delay="100"
+     
             >
             <span>
                 <div
@@ -59,7 +59,7 @@ class="fristSection_gradient fristSection_slice fristSection_TextNextToImage fri
             data-aos-easing="linear"
      data-aos-duration="1500"
      data-aos-once="true"
-     data-aos-delay="100"
+     
            
               
               >You can now generate pages at deployment time and serve them over a CDN.
@@ -85,7 +85,7 @@ class="fristSection_gradient fristSection_slice fristSection_TextNextToImage fri
               data-aos-duration="1500"
               data-aos-once="true"
               data-aos-offset="200"
-              data-aos-delay="500"
+              
               src="./images/singleProduct/static-performance_75a92c41d7.svg"
               alt="Illustration of a great performance score for a strapi website"
               style={{opacity: 1, visibility: "inherit"}}/></div>

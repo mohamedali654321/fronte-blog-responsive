@@ -482,3 +482,23 @@ to{
 }
 
   }
+
+  .defLi{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+   
+}
+
+
+
+
+.defUl{
+    text-decoration: none;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+   
+    
+}

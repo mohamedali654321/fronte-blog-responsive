@@ -23,7 +23,7 @@ function SecondSection() {
                                    data-aos-easing="linear"
                                    data-aos-duration="1000"
                                    data-aos-once="true"
-                                   data-aos-delay="100"
+                                   
                   
                   >
                     <div class="secondSectionLabelTitleText secondSectionLabelTitleText_font" style={{opacity: 1}}>
@@ -37,7 +37,7 @@ function SecondSection() {
                                    data-aos-easing="linear"
                                    data-aos-duration="1000"
                                    data-aos-once="true"
-                                   data-aos-delay="200"
+                                   
                               >Higher Security</div>
                             
                           </span></div>
@@ -62,7 +62,7 @@ function SecondSection() {
                                         data-aos-offset="200"
                                    data-aos-duration="1500"
                                    data-aos-once="true"
-                                   data-aos-delay="400"
+                                   
                                    
                           src="./images/singleProduct/static-security_a459b4fa87.svg"
                           style={{opacity: 1, visibility: "inherit"}}/></div>

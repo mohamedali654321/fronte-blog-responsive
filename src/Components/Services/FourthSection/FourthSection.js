@@ -38,7 +38,7 @@ function FourthSection() {
                       <div
                        data-aos="zoom-in-up"
             data-aos-offset="200"
-            data-aos-delay="200"
+            
             data-aos-once="true"
             data-aos-duration="500"
                         class="fourthSectionText  fourthSectionText_style  fourthSectionTitle_fontSize fourthSectionText_color">
@@ -53,7 +53,7 @@ function FourthSection() {
                       class="fourthSectionText fourthSectionText_quote fourthSectionText_smallFont fourthSectionText_color"
                       data-aos="zoom-in-up"
             data-aos-offset="200"
-            data-aos-delay="400"
+            
             data-aos-once="true"
             data-aos-duration="700"
                       >
@@ -68,7 +68,7 @@ function FourthSection() {
                       <div class="fourthSectionPerson fourthSection_author"
                        data-aos="zoom-in-right"
             data-aos-offset="200"
-            data-aos-delay="900"
+           
             data-aos-once="true"
             data-aos-duration="1000"
                       >
@@ -86,7 +86,7 @@ function FourthSection() {
                         <div class="fourthSection_authorContent"
                            data-aos="zoom-in-up"
             data-aos-offset="200"
-            data-aos-delay="800"
+            
             data-aos-once="true"
             data-aos-duration="900"
                         >

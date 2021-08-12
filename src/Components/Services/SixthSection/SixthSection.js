@@ -212,7 +212,13 @@ useEffect(()=>{
         </div>
 
 
-        <div class="SixthSectionMoreContainer">
+        <div class="SixthSectionMoreContainer"
+         data-aos="zoom-in"
+            data-aos-offset="200"
+            
+            data-aos-once="true"
+        
+        >
           <div class="SixthSectionMoreWrapper SixthSectionSelect_buttonContainer_style">
             <div class="SixthSectionButton SixthSectionSelect_bg">
               <div class="SixthSectionBackground_button SixthSectionSelect_bg" style={{transform: "perspective(800px)"}}>

@@ -1,6 +1,13 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import './SeventhSection.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function SeventhSection() {
+  useEffect(()=>{
+    AOS.init()
+  })
+
+
     const list=[
         {
             title:"Mobile Applications",
@@ -59,11 +66,24 @@ function SeventhSection() {
                   class="seventhSection_gradient seventhSection_StackingCards seventhSection_slice seventhSection_gradient-right seventhSectionContainer">
                   <div class="seventhSectionWrapper seventhSectionWrapper_style">
                     <div class="seventhSection_innerWrapper">
-                      <div class="seventhSection_contentWrapper">
-                        <h1 class="seventhSectionTitle seventhSectionTitle_style seventhSectionTitle_color">
+                      <div class="seventhSection_contentWrapper"
+                      
+                      >
+                        <h1 class="seventhSectionTitle seventhSectionTitle_style seventhSectionTitle_color"
+                         data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-once="true"
+                        >
                         One CMS, many solutions
                         </h1>
-                        <ul class="seventhSection_cardsContainer">
+                        <ul class="seventhSection_cardsContainer"
+                          data-aos="zoom-in-up"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="1200"
+            data-aos-once="true"
+                        >
                         {
                             list.map((item,index)=>(
 

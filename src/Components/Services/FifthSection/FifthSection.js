@@ -20,7 +20,7 @@ function FifthSection() {
                 <div class="fifthSection_textWrapper"
                  data-aos="zoom-in-up"
             data-aos-offset="200"
-            data-aos-delay="200"
+            
             data-aos-once="true"
                  
             
@@ -47,7 +47,7 @@ function FifthSection() {
                     <ul class="fifthSectionLinks"
                       data-aos="zoom-in"
             data-aos-offset="200"
-            data-aos-delay="500"
+            
             data-aos-once="true"
                     >
                       <li class="fifthSectionLink">
@@ -75,7 +75,7 @@ function FifthSection() {
                     <img
                      data-aos="zoom-in-down"
             data-aos-offset="200"
-            data-aos-delay="400"
+            
             data-aos-once="true"
             data-aos-duration="1500"
                         class=" fifthSection_image  "
