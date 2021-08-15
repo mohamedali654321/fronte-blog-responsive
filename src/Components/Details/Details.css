@@ -1222,21 +1222,39 @@ table {
 }
 
 .ContentDetails img{
-  width: 1005  !important;
+  width: 100%  !important;
   height: 100% !important;
   position: relative !important;
   object-fit: contain;
   object-position: center;
 }
 
+.ContentDetails p img {
 
+  text-align: center ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width:992px) {
+
+  
+}
 @media (max-width:768px) {
   .ContentDetails img{
-    width: 1005  !important;
+    width: 100%  !important;
   height: 100% !important;
   position: relative !important;
   object-fit: contain;
   object-position: center;
+  }
+
+  .ContentDetails p img {
+
+    text-align: center !important ;
+    margin-left: auto !important;
+    margin-right: auto;
   }
 
   

@@ -1,29 +1,39 @@
 import React from 'react'
-import Hero from './Hero';
-import Logo from './Logo';
-import Review from './Review';
-
-import Slice from './Slice';
-import Steps from './Steps';
-// import StepWrapper from './StepWrapper';
+import './HomePage.css'
+import HomeHero from './Page/HomeHero/HomeHero'
+import Logo from './Page/Logo/Logo'
+import Feature from './Page/Feature/Feature'
+import SixthSection from './Page/SixthSection/SixthSection'
 
 
 
 function HomePage() {
     return (
-        <div>
+        <div >
+        <div class="homeContainer">
+         
 
-<Hero/>
-    
-    <Logo/>
-    <Slice/>
-    <Steps/>
-    {/* <StepWrapper/> */}
+          <div class="homeWrapper">
+            <section>
+                <HomeHero/>
+                
+                <div>
 
-    <Review/>
-    
-   
+                <Logo/>
+
+                <Feature/>
+
+                <SixthSection/>
+                
+
+                </div>
+
+                </section>
+
+
         </div>
+        </div>
+    </div>
     )
 }
 

@@ -107,16 +107,65 @@ function Card(props) {
                               visibility: "inherit",
                             }}
                           />
-                          <ul className="defUl">
+                          {/* <ul className="defUl">
                             {props.tag &&
                               props.tag.map((tag) => (
                                 <li className="defLi">
                                   <p className="defaultCat">{tag.name}</p>
                                 </li>
                               ))}
-                          </ul>
-                          <p className="defaultCat"></p>
-                          <span className="defaultTitle">{props.title}</span>
+                          </ul> */}
+                          {/* <p className="defaultCat"></p>
+                          <span className="defaultTitle">{props.title}</span> */}
+
+                          <div class="SixthSection_mobileInnerWrapper SixthSection_innerWrapper"
+            
+            >
+              <div
+                class="SixthSectionLabelTitleText SixthSectionLabelTitleText_width SixthSectionLabelTitleText_withGradient SixthSectionLabelTitleText_center"
+                style={{opacity: 1}}>
+              
+               {
+                props.tag &&
+                              props.tag.map((tag) => (
+                                <div class="SixthSectionLabel SixthSectionLabel_style SixthSectionLabel_color">
+                  <div>
+                   
+                                
+
+                    <div
+                   
+                      style={{position: "relative", display: "inline-block", opacity: .7, transform: "perspective(1000px) translate3d(0px, 0px, 0px)",color:"#fff"  }}
+                      class="default_Category">{tag.name}</div>
+                  </div>
+
+
+                </div>
+                               
+                              ))
+
+               }
+
+
+
+                <h2
+                 
+                  class="SixthSectionTitle SixthSectionTitle_style SixthSectionTitle_fontSize SixthSectionTitle_color">
+                  <div class=""><span
+                  
+                  >
+                      <div
+                        style={{position: "relative", display: "inline-block", opacity: 1, transform: "perspective(1000px) translate3d(0px, 0px, 0px)" , fontSize:"15px",color:"#fff"}}
+                        class="default_Title">{props.title}</div>
+                      
+                    </span></div>
+                </h2>
+              
+
+               
+              </div>
+            </div>
+            
                         </div>
                       </div>
                     </>

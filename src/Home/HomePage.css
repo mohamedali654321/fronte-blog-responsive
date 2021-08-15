@@ -1,0 +1,12 @@
+.homeContainer {
+    font-family: Poppins, sans-serif;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .homeWrapper {
+    width: 100%;
+    min-height: 120vh;
+    position: relative;
+  }

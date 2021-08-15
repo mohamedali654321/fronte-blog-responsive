@@ -502,3 +502,41 @@ to{
    
     
 }
+
+.defaultCat{
+  color: rgb(218, 214, 214);
+  position: relative;
+  font-size: 11px;
+  text-align: center;
+  /* margin-top: 5px; */
+  text-transform: uppercase;
+  font-weight: 500;
+  filter: blur(.4px);
+  margin-right: 5px;
+}
+
+.defaultTitle{
+  color: rgb(252, 248, 248);
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 27%;
+  filter: blur(.4px);
+  top: -30px;
+  
+}
+
+.default_Category{
+  color: rgb(218, 214, 214);
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+   top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+ 
+}
+

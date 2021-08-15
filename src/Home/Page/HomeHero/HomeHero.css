@@ -1,0 +1,634 @@
+.HeroContainer {
+    position: relative;
+    margin-bottom: 83px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .HeroBackground {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 95%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(
+209.21deg
+, rgb(87, 15, 141) 13.57%, rgb(243, 91, 160) 98.38%);
+  }
+  @media (min-width: 992px) {
+    .HeroBackground {
+      height: 100%;
+    }
+  }
+  .HeroBackground .HeroBackgroundTop {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    max-width: 1024px;
+  }
+  
+  .HeroBackground .HeroBackgroundBottom {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    max-width: 180px;
+  }
+
+  .HeroRatio {
+    position: relative;
+    width: 100%;
+  }
+  .HeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .HeroImgCover {
+    object-fit: cover;
+  }
+
+  .HeroImgCenter {
+    object-position: center;
+  }
+
+
+  .HeroWrapper {
+    z-index: 1;
+    position: relative;
+    padding: 130px 0;
+  }
+  @media (min-width: 992px) {
+    .HeroWrapper {
+      padding: 170px 0;
+    }
+  }
+  .HeroWrapper h1 {
+    max-width: 740px;
+  }
+
+  .HeroWrapper_style {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .HeroInnerWrapper,
+  .HeroWrapper_style {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .HeroInnerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .HeroInnerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+  .HeroInnerWrapper,
+  .HeroWrapper_style{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HeroInnerWrapper {
+    max-width: 980px;
+  }
+  @media (min-width: 992px) {
+    .HeroInnerWrapper {
+      width: 81.6666666667%;
+    }
+  }
+
+
+  .HeroLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+  
+
+
+  
+  .HeroText_position,
+  .HeroTitle_style {
+    text-align: left;
+    -webkit-transform: translateZ(1000px);
+    -moz-transform: translateZ(1000px);
+    transform: translateZ(1000px);
+  }
+
+
+  .HeroTitle_style {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+
+
+  .HeroText_style {
+    max-width: 400px;
+  }
+  
+
+  .HeroText_position {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .HeroText_position {
+      padding: 0;
+    }
+  }
+  .styles_label__1ilIC:last-child,
+  .HeroLinks:last-child,
+  .HeroText_position:last-child,
+  .styles_title__1TzMX:last-child {
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+  
+
+
+  .HeroLinks {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    margin-bottom: 36px;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    list-style: none;
+  }
+  @media (min-width: 992px) {
+    .HeroLinks {
+      flex-wrap: wrap;
+      -moz-box-orient: horizontal;
+      -moz-box-direction: normal;
+      flex-direction: row;
+    }
+  }
+
+
+
+
+
+
+
+
+  .HeroTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  @media (min-width: 992px) {
+    .HeroTitle {
+      font-size: 33px;
+      line-height: 56px;
+    }
+  }
+  .HeroTitle.HeroTitle_fontSize {
+    font-size: 43px;
+  }
+  @media (min-width: 992px) {
+    .HeroTitle.HeroTitle_fontSize {
+      font-size: 53px;
+    }
+  }
+  
+
+  .HeroTitle_color {
+    color: #fff;
+  }
+
+  .HeroTitleContainer {
+    position: relative;
+  }
+
+
+  .HeroText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  @media (min-width: 992px) {
+    .HeroText {
+      font-size: 17px;
+    }
+  }
+  
+  .HeroText_rich {
+    font-family: Poppins, serif;
+    word-break: break-word;
+    white-space: pre-line;
+  }
+  .HeroText_rich strong {
+    font-weight: 600;
+  }
+
+
+  .HeroLink {
+    margin: 0 auto 15px 0;
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .HeroLink {
+      width: auto;
+      margin-right: 35px;
+      margin-bottom: 0;
+    }
+    .HeroLink:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+
+  .HeroLink_buttonWidth {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .HeroLink_buttonWidth {
+      width: auto;
+    }
+  }
+
+
+  .HeroLink_buttonContainer {
+    display: inline-block;
+  }
+  .HeroLink_buttonContainer .HeroLink_buttonStyle {
+    background-color: transparent;
+  }
+ 
+  .HeroLink_buttonBackground
+   {
+    border-radius: 8px;
+  }
+  .HeroLink_buttonBackground {
+    top: 0;
+    left: 0;
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid transparent;
+    -webkit-transition: border 0.2s ease;
+    -moz-transition: border 0.2s ease;
+    transition: border 0.2s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .HeroLink_buttonBackground
+   {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+    box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+  }
+
+
+
+  .HeroLink_buttonLink {
+    color: inherit;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    padding: 18px 40px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateZ(1000px);
+    -moz-transform: translateZ(1000px);
+    transform: translateZ(1000px);
+  }
+ 
+
+
+  .HeroLink_buttonFontSize {
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+
+  .HeroLink_YellowBackground {
+    background-color: #fee895;
+    color: #1e1d80;
+  }
+
+  .HeroLink_buttonStyle {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    -webkit-transform: translateZ(900px);
+    -moz-transform: translateZ(900px);
+    transform: translateZ(900px);
+  }
+  @media (min-width: 768px) {
+    .HeroLink_buttonStyle {
+      width: auto;
+    }
+  }
+
+
+
+  .HeroLink_buttonBackgroundColor {
+    background-color: #8c4bff;
+    color: #fff;
+  }
+
+
+
+  .HeroAssetWrapper {
+    z-index: 0;
+    position: relative;
+    margin-bottom: -70px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+  }
+  @media (min-width: 768px) {
+    .HeroAssetWrapper {
+      margin-bottom: 0;
+    }
+  }
+  .HeroAssetWrapper .HeroAssetphone {
+    
+  }
+  .HeroAssetWrapper .HeroBrowserWindowContainer {
+    z-index: 1;
+    position: relative;
+    width: 118%;
+    margin-top: 75px;
+    margin-left: -12%;
+    margin-bottom: -45%;
+    overflow: hidden;
+  }
+  @media (min-width: 992px) {
+    .HeroAssetWrapper .HeroBrowserWindowContainer {
+      overflow: visible;
+    }
+  }
+  .HeroAssetWrapper .HeroBrowserWindow,
+  .HeroAssetWrapper .HeroAssetphone {
+    width: 100%;
+  }
+  .HeroAssetWrapper .HeroAssetphoneContainer {
+    z-index: 2;
+    position: absolute;
+    top: -5%;
+    right: -20px;
+    width: 40%;
+  }
+  @media (min-width: 992px) {
+    .HeroAssetWrapper .HeroAssetphoneContainer {
+      right: -10.4%;
+    }
+  }
+
+
+
+  .HeroLottieWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .HeroLottieWrapper.HeroAssetShadow:before {
+    content: "";
+    display: block;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: -webkit-radial-gradient(
+      center,
+      ellipse,
+      rgba(0, 0, 0, 0.3) 0,
+      transparent 70%,
+      transparent 100%
+    );
+    background: -moz-radial-gradient(
+      center,
+      ellipse,
+      rgba(0, 0, 0, 0.3) 0,
+      transparent 70%,
+      transparent 100%
+    );
+    background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.3) 0,
+      transparent 70%,
+      transparent 100%
+    );
+    max-width: 100%;
+    padding-bottom: 70%;
+    border-radius: 50%;
+  }
+  @media (min-width: 992px) {
+    .HeroLottieWrapper.HeroAssetShadow:before {
+      width: 130%;
+      max-width: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .ring {
+    
+    
+    position: absolute;
+    z-index: 2;
+    margin-right: 20px;
+    opacity: 0.7;   
+     
+    
+}
+
+.ring img{
+    width: 60%;
+    
+
+    
+}
+
+.ringOne img {
+    animation: rotateFirstRing 2s linear infinite;
+}
+
+.ringTwo img {
+    animation: rotateFirstRing 8s linear infinite;
+}
+
+@keyframes rotateFirstRing {
+    from {
+          transform: rotate(0deg);
+    }
+    to {
+          transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px)
+{
+    .HeroWave2_wrapper {
+        background-size: 1440px;
+    }
+
+}
+
+
+
+.HeroWave2_wrapper {
+    position: absolute;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    top: 900px;
+    background-image: url(https://designcode.io/images/waves/course-wave2.svg);
+    height: 600px;
+    mix-blend-mode: overlay;
+}
+
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm)
+{
+    .HeroWave2_wrapper {
+        mix-blend-mode: normal;
+        opacity: 0.2;
+    }
+    
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm)
+{
+    .HeroWave1_wrapper {
+        mix-blend-mode: normal;
+        opacity: 0.2;
+    }
+}
+
+
+
+@media (max-width: 1440px)
+{
+    .HeroWave1_wrapper {
+        background-size: 1440px;
+    }
+}
+
+
+.HeroWave1_wrapper {
+    position: absolute;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    top: 500px;
+    background-image: url(https://designcode.io/images/waves/course-wave1.svg);
+    height: 600px;
+    mix-blend-mode: overlay;
+}
+
+
+.HeroWave3_wrapper {
+    position: absolute;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    top: 1100px;
+    background-image: url(https://designcode.io/images/waves/course-wave3.svg);
+    height: 600px;
+}
+
+@media (max-width: 1440px)
+{
+    .HeroWave3_wrapper {
+        background-size: 1440px;
+    }
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm)
+{
+    .HeroWave3_wrapper {
+        mix-blend-mode: normal;
+        opacity: 0.2;
+    }
+}
+
+
+
