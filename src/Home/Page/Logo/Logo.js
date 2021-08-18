@@ -1,8 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Logo.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function Logo() {
+
+  useEffect(()=>{
+    AOS.init()
+  })
     return (
         <section class=" LogoContainer LogoSlice Logo_maxWidth"
+        data-aos="zoom-in"              
+          data-aos-once="true"
         
         >
         <div class="LogoWrapper">

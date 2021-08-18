@@ -357,6 +357,7 @@
     -webkit-transform: translateZ(900px);
     -moz-transform: translateZ(900px);
     transform: translateZ(900px);
+    transition: .4s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   @media (min-width: 768px) {
     .HeroLink_buttonStyle {
@@ -527,7 +528,9 @@
 
 
 
-
+.HeroLink_buttonStyle:hover{
+  transform: scale(1.04);
+}
 
 
 

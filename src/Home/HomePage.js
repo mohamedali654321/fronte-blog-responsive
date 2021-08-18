@@ -4,6 +4,7 @@ import HomeHero from './Page/HomeHero/HomeHero'
 import Logo from './Page/Logo/Logo'
 import Feature from './Page/Feature/Feature'
 import SixthSection from './Page/SixthSection/SixthSection'
+import Review from './Page/Review/Review'
 
 
 
@@ -24,6 +25,10 @@ function HomePage() {
                 <Feature/>
 
                 <SixthSection/>
+
+                <Review/>
+
+                
                 
 
                 </div>

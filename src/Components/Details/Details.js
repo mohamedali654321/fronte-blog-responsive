@@ -536,7 +536,7 @@ function Details({ match }) {
                           />
                                </div>
                           <div className="separator3"></div>
-                          {details.sources && details.sources.length > 0 ? (
+                          {/* {details.sources && details.sources.length > 0 ? (
                             <div className="">
                               <div className="">
                                 <div className="sourceLabel">Sources: </div>
@@ -553,7 +553,7 @@ function Details({ match }) {
                                 ))}
                               </div>
                             </div>
-                          ) : null}
+                          ) : null} */}
                         </div>
                       </div>
                      

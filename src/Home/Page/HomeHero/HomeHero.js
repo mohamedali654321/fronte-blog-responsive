@@ -1,6 +1,12 @@
-import React from "react";
+import React,{useEffect} from "react";
 import './HomeHero.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function HomeHero() {
+
+  useEffect(()=>{
+    AOS.init()
+  })
   return (
     <div>
       <section class="HeroContainer">
@@ -60,13 +66,21 @@ function HomeHero() {
                     </div>
                   </div> */}
                 </div>
-                <div class="HeroWrapper HeroWrapper_style">
+                <div class="HeroWrapper HeroWrapper_style"
+                 data-aos="zoom-in"              
+          data-aos-once="true"
+                >
                   <div class="HeroInnerWrapper">
                     <div
                       class="HeroLabelTitleText"
                       style={{ opacity: 1 }}
                     >
-                      <h1 class=" HeroTitle HeroTitle_style HeroTitle_fontSize HeroTitle_color">
+                      <h1 class=" HeroTitle HeroTitle_style HeroTitle_fontSize HeroTitle_color"
+                      data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="200"
+                      >
                         <div class="HeroTitleContainer">
                           <span>
                             <div
@@ -89,7 +103,12 @@ function HomeHero() {
                           </span>
                         </div>
                       </h1>
-                      <h2 class=" HeroText HeroText_rich HeroText_position HeroText_style  HeroTitle_color">
+                      <h2 class=" HeroText HeroText_rich HeroText_position HeroText_style  HeroTitle_color"
+                       data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="300"
+                      >
                         <div
                           style={{
                             position: "relative",
@@ -106,7 +125,16 @@ function HomeHero() {
                         </div>
                       </h2>
                       <ul class="HeroLinks">
-                        <li class="HeroLink">
+                        <li class="HeroLink"
+
+data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="500"
+        
+     data-aos-duration="1100"
+                        
+                        >
                           <div
                             class=" HeroLink_buttonWidth HeroLink_buttonContainer"
                             style={{
@@ -135,7 +163,17 @@ function HomeHero() {
                             </div>
                           </div>
                         </li>
-                        <li class="HeroLink">
+                        <li class="HeroLink"
+
+                        
+         data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="1500"
+        
+     data-aos-duration="900"
+                        
+                        >
                           <div
                             class=" HeroLink_buttonWidth HeroLink_buttonContainer"
                             style={{

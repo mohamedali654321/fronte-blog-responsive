@@ -1,6 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Feature.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 function Feature() {
+  useEffect(()=>{
+    AOS.init()
+  })
     return (
         
         <div class=" featureSlice featureContainer feature_maxWidth">
@@ -11,7 +16,10 @@ function Feature() {
                 class=" featureLabelTitleText featureLabelTitleText_width featureLabelTitleText_withGradient featureLabelTitleText_center"
                 style={{ opacity: 1 }}
               >
-                <div class=" featureLabel featureLabelWrapper featureLabelColor">
+                <div class=" featureLabel featureLabelWrapper featureLabelColor"
+                data-aos="zoom-in"              
+          data-aos-once="true"
+                >
                   <div>
                     <div
                       style={{
@@ -21,14 +29,19 @@ function Feature() {
                         transform:
                           "perspective(1000px) translate3d(0px, 0px, 0px)",
                       }}
-                      class="styles_word__2432z"
+                      class=""
                     >
                       Top Features
                     </div>
                     
                   </div>
                 </div>
-                <h1 class=" featureTitle featureTitleWrapper featureTitle_fontSize featureTitle_color">
+                <h1 class=" featureTitle featureTitleWrapper featureTitle_fontSize featureTitle_color"
+                 data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="300"
+                >
                   <div class="featureTitleContainer">
                     <span>
                       <div
@@ -47,7 +60,12 @@ function Feature() {
                     </span>
                   </div>
                 </h1>
-                <div class=" featureText featureText_rich featureText_style featureText_theme featureText_fontStyle featureText_color">
+                <div class=" featureText featureText_rich featureText_style featureText_theme featureText_fontStyle featureText_color"
+                  data-aos="zoom-in"              
+          data-aos-once="true"
+          data-aos-offset="200"
+        data-aos-delay="450"
+                >
                   <div
                     style={{
                       position: "relative",
@@ -66,7 +84,14 @@ function Feature() {
               <ul class="featureList">
                 <div
                   class="featureIconTitleText featureIcon_item"
+
+                  data-aos="fade-right"
+                        data-aos-delay="200"
+                        data-aos-offset="200"
+                        data-aos-once="true"
+                        data-aos-duration="700"
                   style={{ opacity: 1 }}
+                  
                 >
                   <div class="featureIcon_container">
                     <div class="featureIcon_wrapper">
@@ -205,6 +230,11 @@ function Feature() {
                 </div>
                 <div
                   class="featureIconTitleText featureIcon_item"
+                        data-aos="fade-left"
+                        data-aos-delay="200"
+                        data-aos-offset="200"
+                        data-aos-once="true"
+                        data-aos-duration="700"
                   style={{ opacity: 1 }}
                 >
                   <div class="featureIcon_container">
@@ -429,6 +459,12 @@ function Feature() {
                 </div>
                 <div
                   class="featureIconTitleText featureIcon_item"
+
+                  data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-offset="200"
+                        data-aos-once="true"
+                        data-aos-duration="700"
                   style={{ opacity: 1 }}
                 >
                   <div class="featureIcon_container">
@@ -586,6 +622,12 @@ function Feature() {
                 </div>
                 <div
                   class="featureIconTitleText featureIcon_item"
+
+                  data-aos="fade-left"
+                        data-aos-delay="500"
+                        data-aos-offset="200"
+                        data-aos-once="true"
+                        data-aos-duration="700"
                   style={{ opacity: 1 }}
                 >
                   <div class="featureIcon_container">
