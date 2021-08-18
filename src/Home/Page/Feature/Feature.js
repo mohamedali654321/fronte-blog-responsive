@@ -85,7 +85,7 @@ function Feature() {
                 <div
                   class="featureIconTitleText featureIcon_item"
 
-                  data-aos="fade-right"
+                  data-aos="zoom-in-right"
                         data-aos-delay="200"
                         data-aos-offset="200"
                         data-aos-once="true"
@@ -230,7 +230,7 @@ function Feature() {
                 </div>
                 <div
                   class="featureIconTitleText featureIcon_item"
-                        data-aos="fade-left"
+                        data-aos="zoom-in-left"
                         data-aos-delay="200"
                         data-aos-offset="200"
                         data-aos-once="true"
@@ -460,7 +460,7 @@ function Feature() {
                 <div
                   class="featureIconTitleText featureIcon_item"
 
-                  data-aos="fade-right"
+                  data-aos="zoom-in-right"
                         data-aos-delay="500"
                         data-aos-offset="200"
                         data-aos-once="true"
@@ -623,7 +623,7 @@ function Feature() {
                 <div
                   class="featureIconTitleText featureIcon_item"
 
-                  data-aos="fade-left"
+                  data-aos="zoom-in-left"
                         data-aos-delay="500"
                         data-aos-offset="200"
                         data-aos-once="true"
