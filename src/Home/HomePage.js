@@ -5,6 +5,7 @@ import Logo from './Page/Logo/Logo'
 import Feature from './Page/Feature/Feature'
 import SixthSection from './Page/SixthSection/SixthSection'
 import Review from './Page/Review/Review'
+import Steps from './Page/Steps/Steps'
 
 
 
@@ -23,6 +24,7 @@ function HomePage() {
                 <Logo/>
 
                 <Feature/>
+                <Steps/>
 
                 <SixthSection/>
 
