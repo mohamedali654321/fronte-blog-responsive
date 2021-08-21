@@ -25,8 +25,9 @@ function Card(props) {
         className="CardWithArrowLink "
 
         data-aos="zoom-in"
+        data-aos-duration="500"
         data-aos-offset="200"
-        data-aos-delay={`${props.index}*200`}
+        data-aos-delay="200"
         
         data-aos-once="true"
        
@@ -58,7 +59,7 @@ function Card(props) {
                 style={{ paddingBottom: "56.25%" }}
               >
                 <div className="styles_children">
-                  {props.image &&
+                  {/* {props.image &&
                     props.image.url !== null &&
                     videoExtensions.includes(props.image.ext.substring(1)) ===
                       true && (
@@ -77,8 +78,8 @@ function Card(props) {
                           />
                         </div>
                       </div>
-                    )}
-                  {props.image &&
+                    )} */}
+                  {/* {props.image &&
                     props.image.url !== null &&
                     videoExtensions.includes(props.image.ext) === false && (
                       <div className="styles_CoverImage">
@@ -93,30 +94,23 @@ function Card(props) {
                           />
                         </div>
                       </div>
-                    )}
+                    )} */}
 
-                  {props.image === null && (
+                  { (
                     <>
                       <div className="styles_CoverImage">
                         <div className="ratio fluid">
                           <img
-                            src="/images/default.png"
+                             src="/images/bg-hero.png"
+
+                           
                             className="styles_Img styles_img "
                             style={{
                               opacity: 1,
                               visibility: "inherit",
                             }}
                           />
-                          {/* <ul className="defUl">
-                            {props.tag &&
-                              props.tag.map((tag) => (
-                                <li className="defLi">
-                                  <p className="defaultCat">{tag.name}</p>
-                                </li>
-                              ))}
-                          </ul> */}
-                          {/* <p className="defaultCat"></p>
-                          <span className="defaultTitle">{props.title}</span> */}
+                        
 
                           <div class="SixthSection_mobileInnerWrapper SixthSection_innerWrapper"
             
@@ -135,13 +129,13 @@ function Card(props) {
 
                     <div
                    
-                      style={{position: "relative", display: "inline-block", opacity: .7, transform: "perspective(1000px) translate3d(0px, 0px, 0px)",color:"#fff"  }}
+                      style={{position: "relative", display: "inline-block", opacity: .7, transform: "perspective(1000px) translate3d(0px, 0px, 0px)",color:"#fff" , fontWeight:"500" }}
                       class="default_Category">{tag.name}</div>
                   </div>
 
 
                 </div>
-                               
+                             
                               ))
 
                }
@@ -150,12 +144,12 @@ function Card(props) {
 
                 <h2
                  
-                  class="SixthSectionTitle SixthSectionTitle_style SixthSectionTitle_fontSize SixthSectionTitle_color">
+                  class="card_text card_text_abstract abstract_small_text card_text_color_abstractPublish ">
                   <div class=""><span
                   
                   >
                       <div
-                        style={{position: "relative", display: "inline-block", opacity: 1, transform: "perspective(1000px) translate3d(0px, 0px, 0px)" , fontSize:"15px",color:"#fff"}}
+                        style={{position: "relative",  opacity: 1, transform: "perspective(1000px) translate3d(0px, 0px, 0px)" , fontSize:"15px",color:"#fff" , fontWeight:"500",zIndex:"100"}}
                         class="default_Title">{props.title}</div>
                       
                     </span></div>

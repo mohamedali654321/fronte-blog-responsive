@@ -131,11 +131,11 @@ useEffect(()=>{
                     className="ratio_triangle"
                     style={{ paddingBottom: "30.927835051546392%" }}
                   >
-                    <img
+                    {/* <img
                       className=" styles_img_triangle align_center__img"
                       src="/images/dots.svg"
                       style={{ opacity: 1, visibility: "inherit" }}
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="styles_image">
@@ -143,11 +143,11 @@ useEffect(()=>{
                     className="ratio_triangle"
                     style={{ paddingBottom: "100%" }}
                   >
-                    <img
+                    {/* <img
                       className=" styles_img_triangle  align_center__img"
                       src="/images/triangle.svg"
                       style={{ opacity: 1, visibility: "inherit" }}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

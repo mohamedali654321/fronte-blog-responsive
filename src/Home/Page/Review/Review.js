@@ -210,7 +210,7 @@ data-aos-delay="400"
                   style={{ marginTop: "-40px" }}
                 >
                   <Swiper
-                    spaceBetween={30}
+                    spaceBetween={60}
                     centeredSlides={true}
                     autoplay={{
                       delay: 2500,

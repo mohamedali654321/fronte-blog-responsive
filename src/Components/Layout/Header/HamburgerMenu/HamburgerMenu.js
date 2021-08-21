@@ -49,6 +49,10 @@ const Icon = styled.span`
   display: inline-block;
   margin-top: 3.5rem;
   transition: all 0.3s;
+  z-index: 10000;
+  top: -.6rem;
+  left: -.3rem;
+ 
 
   &::before,
   &::after {
@@ -85,7 +89,7 @@ const Icon = styled.span`
 const Navigation = styled.nav`
   height: 100vh;
   position: fixed;
-  top: 0;
+  top: 10px;
   right: 0;
   z-index: 600;
   width: ${(props) => (props.clicked ? "100%" : "0")};

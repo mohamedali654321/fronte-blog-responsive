@@ -425,6 +425,14 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
+
+
+    .card_text_abstract {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
     .ListCardContent.styles_List
     .card_text_abstract
     + .author {
@@ -542,3 +550,154 @@ to{
  
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SixthSection_mobileInnerWrapper {
+  width: 81.6666666667%;
+}
+
+
+
+.SixthSection_innerWrapper {
+  max-width: 980px;
+}
+@media (min-width: 992px) {
+  .SixthSection_innerWrapper {
+    width: 81.6666666667%;
+  }
+}
+
+
+.SixthSection_innerWrapper,
+.SixthSectionWrapper_style {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.SixthSectionLabelTitleText {
+  opacity: 0;
+  width: 100%;
+}
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center,
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionLabel_style,
+
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionText_style,
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionTitle_style {
+  text-align: center;
+}
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionLabel_style,
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionText_style,
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionTitle_style {
+  margin-left: auto;
+  margin-right: auto;
+}
+.SixthSectionLabelTitleText.SixthSectionLabelTitleText_center .SixthSectionText_style {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.SixthSection_GradientHeader .SixthSectionLabelTitleText_width {
+  max-width: 690px;
+  margin: 0 auto 60px;
+}
+.SixthSection_GradientHeader
+  .SixthSectionLabelTitleText_width.SixthSectionLabelTitleText_withGradient {
+  margin: auto;
+}
+
+
+
+
+
+
+.SixthSectionLabel.SixthSectionTitle_fontSize {
+  font-size: 17px;
+}
+
+.SixthSectionLabel_style,
+.SixthSectionText_style,
+.SixthSectionTitle_style {
+text-align: left;
+transform: translateZ(1000px);
+}
+.SixthSectionTitle_style {
+  position: relative;
+  margin-bottom: 35px;
+}
+.SixthSectionLabel_style:last-child,
+
+.SixthSectionText_style:last-child,
+.SixthSectionTitle_style:last-child {
+margin-bottom: 0;
+}
+.SixthSectionLabel_style {
+margin-bottom: 40px;
+}
+.SixthSectionLabel_color {
+  color: #13bb70;
+}
+
+.SixthSectionTitle {
+  font-family: Poppins, serif;
+  font-size: 16px;
+  font-weight: 600;
+  bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  z-index: 100;
+  
+  
+}
+@media (min-width: 992px) {
+  .SixthSectionTitle {
+    font-size: 14px;
+    line-height: 56px;
+  }
+}
+
+.SixthSectionTitle.SixthSectionTitle_fontSize {
+  font-size: 33px;
+  line-height: 1.19;
+}
+@media (min-width: 992px) {
+  .SixthSectionTitle.SixthSectionTitle_fontSize {
+    font-size: 43px;
+  }
+}
+.SixthSectionTitle.SixthSectionListItem_fontSize {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+}
+@media (min-width: 992px) {
+  .SixthSectionTitle.SixthSectionListItem_fontSize {
+    font-size: 21px;
+  }
+}
+.SixthSectionTitle.SixthSectionSelectLabel_fontSize {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.SixthSectionTitle_color {
+  color: #8D1CB8;
+}
