@@ -50,8 +50,9 @@ const Icon = styled.span`
   margin-top: 3.5rem;
   transition: all 0.3s;
   z-index: 10000;
-  top: -.6rem;
+  top: -.9rem;
   left: -.3rem;
+  
  
 
   &::before,
@@ -68,12 +69,12 @@ const Icon = styled.span`
   }
 
   &::before {
-    top: ${(props) => (props.clicked ? "0" : "-0.8rem")};
+    top: ${(props) => (props.clicked ? "0" : "-0.5rem")};
     transform: ${(props) => (props.clicked ? "rotate(135deg)" : "rotate(0)")};
   }
 
   &::after {
-    top: ${(props) => (props.clicked ? "0" : "0.8rem")};
+    top: ${(props) => (props.clicked ? "0" : "0.5rem")};
 
     transform: ${(props) => (props.clicked ? "rotate(-135deg)" : "rotate(0)")};
   }
