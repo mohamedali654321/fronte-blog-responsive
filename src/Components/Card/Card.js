@@ -143,6 +143,7 @@ function Card(props) {
 
 
                 <h2
+                style={{marginTop:"-7px"}}
                  
                   class="card_text card_text_abstract abstract_small_text card_text_color_abstractPublish ">
                   <div class=""><span
@@ -154,34 +155,60 @@ function Card(props) {
                       
                     </span></div>
                 </h2>
+
+                <div className="icon-list sticky-icon">
+
+               {
+                props.image &&
+                    props.image.url !== null &&(
+
+                      <>
+                      <div className="cardIcon sticky-icon  "  >
+               <img className="imgIcon" src={BACKEND_URL + props.image.url} style={{opacity:1}} />
+               
               
 
+               </div>
+              
+               </>
+               
+
+                    )
+
+               }
+               
+              
+               
+
+               </div>
+               
+
+              
+                
                
               </div>
+              
+              
+              
             </div>
             
+                 
+            
+            
                         </div>
+                        
+
                       </div>
                     </>
                   )}
 
-                  <div className="styles_CoverImage">
-                    <div className="ratio fluid">
-                      <img
-                        className="styles_Img styles_img "
-                        style={{
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
           <div className="cardContent">
-            <div className="cardContainer ListCardContent  styles_List">
+            <div className="cardContainer ListCardContent styles_List">
               <ul className="category_tags">
                 {props.tag &&
                   props.tag.map(tag => (
