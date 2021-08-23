@@ -18,17 +18,28 @@
         padding: 15px 0;
         backdrop-filter: blur(25px);
         justify-items: flex-end;
-        background: #8D1CB8;
+        background-color: #fff;
+        border: 1px solid #f2f4ff;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 12px rgb(0 0 0 / 15%);
        
 }
 
-.HeaderScrolled a{
-    color: white !important;
+.HeaderScrolled .links a {
+    color: #740ac0 !important;
+
 }
 
-.HeaderScrolled a:hover{
-    color: white !important;
+.HeaderScrolled a{
+    color: #740ac0 !important;
 }
+
+
+
+
+/* .HeaderScrolled a:hover{
+    color: white !important;
+} */
 
 
 
