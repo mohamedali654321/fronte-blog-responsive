@@ -72,7 +72,7 @@ hamburger.addEventListener('click',()=>{
          
 
           <ul className="links">
-            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services'  ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/" className="cool">Home</a></li>
+            <li className={document.location.pathname.length === 1 || document.location.pathname === '/services'  ? 'HomeHeader  NavigationLabel ' : 'NavigationLabel '}><a href="/" className="cool">Home</a></li>
             <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/products" className="cool">Products </a></li>
             <li className={document.location.pathname.length === 1  || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/services" className="cool">Services </a></li>
             <li className={document.location.pathname.length === 1 || document.location.pathname === '/services' ? 'HomeHeader NavigationLabel ' : 'NavigationLabel'}><a href="/blog" className="cool">Blog</a></li>

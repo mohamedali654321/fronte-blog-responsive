@@ -58,11 +58,18 @@
     display: block;
     width: 0;
     height: 3px;
-    background: #8533ff !important;
+    background: #8533ff!important;
     transition: width .3s;
 }
 
-
+.Header .cool::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #8533ff!important;
+    transition: width .3s;
+}
 .HomeHeader{
     opacity: 1;
         padding: 15px 0;
@@ -84,15 +91,25 @@
 .HeaderScrolled .links a:hover{
     color: #8533ff  !important;
 }
-.HomeHeader .cool::after{
+/* .HomeHeader .cool::after{
     content: '';
     display: block;
     width: 0;
     height: 3px;
-    background: #8533ff!important;
+    background: #8533ff  !important;
     transition: width .3s;
 }
+ */
 
+
+ .HomeCool .cool::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #8533ff    !important;
+    transition: width .3s;
+}
 
 
 
@@ -182,19 +199,12 @@ height: 55px;
 } */
 
 
- .cool::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 3px;
-    background: #1d1b84;
-    transition: width .3s;
-}
+
 
 .cool:hover::after{
     width: 100%;
     transition: width .3s;
-    background: #8533ff;
+    background: #8533ff !important;
 }
 
 

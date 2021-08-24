@@ -1,5 +1,6 @@
 .stepSlice {
     margin-top: 84px;
+    scroll-behavior: smooth;
   }
 
  
@@ -458,6 +459,8 @@
     -webkit-transform: rotateY(15deg) rotateX(10deg);
     -moz-transform: rotateY(15deg) rotateX(10deg);
     transform: rotateY(15deg) rotateX(10deg);
+
+    transition: .5 cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   .step_stepsAssetsWrapper .step_stepsBackground_Img {
     z-index: 0;
@@ -663,4 +666,58 @@
 
   .step_StepsTitleWrapper {
     margin-top: 48px;
+  }
+
+
+
+
+
+  .float-left{
+    transform: translate(0%,0px) rotate(-4e-5deg) rotateY(15deg) rotateX(9.99994deg)  !important;
+    
+  }
+
+
+  .float-right{
+    transform: translate(90%,0px) rotate(-4e-5deg) rotateY(-15deg) rotateX(9.99994deg) !important;
+
+   transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+  }
+
+
+
+  .secondaryImgDisplayType1{
+    opacity: 1 !important;
+    transform: translate(0px, 30%) !important
+  }
+
+  .secondaryImg-notDisplayType1{
+    opacity: 0 !important;
+    transform: translate(0px, 30%) !important
+  }
+
+
+  .secondaryImgDisplayType2{
+    opacity: 1 !important;
+    transform: translate(0px, 0%) !important
+  }
+
+  .secondaryImg-notDisplayType2{
+    opacity: 0 !important;
+    transform: translate(0px, 0%) !important
+  }
+
+
+
+  @keyframes leftToRight{
+from{
+  transform: translate(0%,0px) rotate(-4e-5deg) rotateY(15deg) rotateX(9.99994deg)  !important;
+    scroll-behavior: smooth;
+}
+
+to{
+  transform: translate(90%,0px) rotate(-4e-5deg) rotateY(-15deg) rotateX(9.99994deg) !important;
+    scroll-behavior: smooth;
+}
+
   }
