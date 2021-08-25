@@ -8,7 +8,7 @@ export default function MockupAnimation() {
       <div className="mockup2" />
       <div className="mockup3" />
       <div className="mockup4" />
-      <div className="mockup5" />
+      {/* <div className="mockup5" /> */}
     </Wrapper>
   )
 }
