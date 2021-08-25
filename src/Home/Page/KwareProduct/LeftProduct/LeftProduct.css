@@ -1,0 +1,398 @@
+.Left_slice {
+    margin-top: 84px;
+  } 
+
+  .Left_maxWidth {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .LeftTextNextToImage .Leftwrapper_maxWidth {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 90px;
+  }
+  @media (min-width: 992px) {
+    .LeftTextNextToImage .Leftwrapper_maxWidth {
+      margin-bottom: 0;
+    }
+
+    .LeftTextNextToImage
+      .Leftwrapper_maxWidth.Leftwrapper_right {
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+    .LeftTextNextToImage
+      .Leftwrapper_maxWidth.Leftwrapper_right
+      .Left_imageWrapper {
+      margin-left: -80px;
+    }
+    .LeftTextNextToImage
+      .Leftwrapper_maxWidth.Leftwrapper_right
+      .LeftContent {
+      margin-left: 100px;
+    }
+  }
+  
+
+  .LeftTextNextToImage .LeftContent {
+    margin-top: 50px;
+    width: 60%;
+    transform: translateZ(1000px);
+  }
+  @media (min-width: 992px) {
+    .LeftTextNextToImage .LeftContent {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+ 
+  @media (min-width: 992px) {
+    .LeftTextNextToImage
+      .Leftwrapper_right
+      .LeftContent {
+      align-self: flex-start;
+    }
+  }
+  .LeftTextNextToImage .Left_imageWrapper {
+    position: relative;
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .LeftTextNextToImage .Left_imageWrapper {
+      width: 50%;
+    }
+  }
+  .LeftTextNextToImage
+    .Left_imageWrapper
+    .Left_imageInnerWrapper {
+    width: 100%;
+  }
+  .LeftTextNextToImage .LeftUpper {
+    width: 40px;
+    height: 3px;
+    margin-bottom: 75px;
+    background-color: #8c4bff;
+  }
+ 
+
+  .Leftwrapper {
+    width: 83.3333333333%;
+    max-width: 1200px;
+    z-index: 1;
+  }
+  .styles_innerWrapper__18waN,
+  .Leftwrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .LeftLabelTitleText {
+    opacity: 0;
+    width: 100%;
+  }
+ 
+
+
+
+
+
+
+
+  .LeftTitle {
+    font-family: Poppins, serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #8D1CB8;
+  }
+  @media (min-width: 992px) {
+    .LeftTitle {
+      font-size: 33px;
+    }
+  }
+  
+  .LeftTitle.LeftTitleWrapper_fontSize {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  @media (min-width: 992px) {
+    .LeftTitle.LeftTitleWrapper_fontSize {
+      font-size: 21px;
+    }
+  }
+ 
+
+
+
+  
+  .LeftTextWrapper,
+  .LeftTitleWrapper {
+    text-align: left;
+    transform: translateZ(1000px);
+  }
+ 
+  .LeftTitleWrapper {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+
+ 
+  .LeftLinks:last-child,
+  .LeftTextWrapper:last-child,
+  .LeftTitleWrapper:last-child {
+    margin-bottom: 0;
+  }
+
+
+  .LeftTextWrapper {
+    padding: 0 6px;
+    margin-bottom: 57px;
+  }
+  @media (min-width: 992px) {
+    .LeftTextWrapper {
+      padding: 0;
+    }
+  }
+
+  .LeftText.LeftTitleWrapper_fontSize {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  @media (min-width: 992px) {
+    .LeftText.LeftTitleWrapper_fontSize {
+      font-size: 15px;
+    }
+  }
+
+
+  .LeftText {
+    font-family: Poppins, serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #9c45da;
+  }
+  @media (min-width: 992px) {
+    .LeftText {
+      font-size: 17px;
+    }
+  }
+
+  .LeftText.LeftTextWrapper_fontsize {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  @media (min-width: 992px) {
+    .LeftText.LeftTextWrapper_fontsize {
+      font-size: 17px;
+    }
+  }
+ 
+
+  .LeftTitleContainer {
+    position: relative;
+  }
+
+
+
+  .LeftLinks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    flex-direction: column;
+  }
+  @media (min-width: 992px) {
+    .LeftLinks {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+ 
+  .LeftLink {
+    margin: 0 auto 15px 0;
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .LeftLink {
+      width: auto;
+      margin-right: 35px;
+      margin-bottom: 0;
+    }
+    .LeftLink:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+
+
+  .LefButtonContainer {
+    display: inline-block;
+  }
+  .LefButtonContainer .LefButtonWrapper {
+    background-color: transparent;
+  }
+  
+    .LefButtonBackground:focus-within {
+    border: 1px solid #5857a2;
+  }
+
+
+  .LefButton_small {
+    font-size: 13px;
+  }
+  .LefButton {
+    width: 100%;
+
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  @media (min-width: 768px) {
+    .LefButton {
+      width: auto;
+    }
+  }
+
+
+
+  .LefButton_fontSize {
+    font-family: Poppins, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+
+  .LefButtonWrapper {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    transform: translateZ(900px);
+  }
+  @media (min-width: 768px) {
+    .LefButtonWrapper {
+      width: auto;
+    }
+  }
+  
+
+  .LefButtonWrapper_color {
+    background-color: #fff;
+    color: #7f44e4;
+  }
+  
+  .LefButtonBackground {
+    border-radius: 8px;
+  }
+  .LefButtonBackground {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: border 0.2s ease;
+    box-sizing: border-box;
+  }
+  .LefButtonBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 4px rgba(26, 26, 67, 0.1);
+  }
+
+  .LefButtonLink {
+    color: inherit;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    padding: 18px 40px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateZ(1000px);
+  }
+
+
+  .Left_imageRatio {
+    position: relative;
+    width: 100%;
+  }
+  .Left_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 992px) {
+  
+    .LeftTextNextToImage .Leftwrapper_maxWidth.LeftSide {
+      flex-direction: row;
+    }
+    .LeftTextNextToImage
+      .Leftwrapper_maxWidth.LeftSide
+      .Left_imageWrapper {
+      margin-right: -80px;
+    }
+   
+    
+  }
+
+
+
+  .LeftTextNextToImage .LeftSide .LeftContent {
+    align-self: flex-end;
+  }
+  @media (min-width: 992px) {
+    .LeftTextNextToImage .LeftSide .LeftContent {
+      align-self: flex-start;
+    }
+    .LeftTextNextToImage
+      .LeftSide
+      .Left_imageWrapper {
+      width: 85%;
+    }
+  }

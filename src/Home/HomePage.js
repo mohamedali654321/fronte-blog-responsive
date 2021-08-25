@@ -6,6 +6,8 @@ import Feature from './Page/Feature/Feature'
 import SixthSection from './Page/SixthSection/SixthSection'
 import Review from './Page/Review/Review'
 import Steps from './Page/Steps/Steps'
+import LeftProduct from './Page/KwareProduct/LeftProduct/LeftProduct'
+import ReightProduct from './Page/KwareProduct/ReightProduct/ReightProduct'
 
 
 
@@ -22,6 +24,8 @@ function HomePage() {
                 <div>
 
                 <Logo/>
+                <LeftProduct/>
+                <ReightProduct/>
 
                 <Feature/>
                 <Steps/>
