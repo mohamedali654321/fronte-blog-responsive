@@ -26,9 +26,9 @@ function HomeHero() {
           <div
             class="  HeroWave2_wrapper"
           ></div>
-          <div
+          {/* <div
             class="  HeroWave3_wrapper"
-          ></div>
+          ></div> */}
 
              <div class="ringOne ring  HeroImg HeroImgCover HeroImgCenter">
                         <img src="./images/hero/ring.png" alt=""/>
@@ -218,7 +218,7 @@ data-aos="zoom-in"
                             class="HeroRatio"
                             style={{ paddingBottom: "78.86100386100387%" }}
                           >
-                            <figure class=" HeroLottieWrapper HeroAssetShadow">
+                            {/* <figure class=" HeroLottieWrapper HeroAssetShadow">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 1036 817"
@@ -1533,7 +1533,7 @@ data-aos="zoom-in"
                                   </g>
                                 </g>
                               </svg>
-                            </figure>
+                            </figure> */}
                           </div>
                         </div>
                       </div>

@@ -107,7 +107,7 @@ const Wrapper = styled.div`
     position: absolute;
     width: 701px;
     height: 428px;
-    left: 37px;
+    left: 27px;
     top: 60px;
 
     background: url("/images/animations/mockup3.svg"), rgba(23, 12, 61, 0.5);

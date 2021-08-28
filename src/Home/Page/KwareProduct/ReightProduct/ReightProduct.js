@@ -4,29 +4,16 @@ function ReightProduct() {
   return (
    
     <div
-    className="
-          Left_slice
-          LeftTextNextToImage
-          Left_maxWidth
-        "
+    className=" Left_slice LeftTextNextToImage Left_maxWidth"
   >
     <div
-      className="
-            Leftwrapper_maxWidth
-            LeftSide
-            Leftwrapper
-          "
+      className=" Leftwrapper_maxWidth LeftSide Leftwrapper"
     >
       <div className="LeftContent" style={{opacity: 1}}>
         <div className="LeftUpper "></div>
         <div className="LeftLabelTitleText" style={{opacity: 1}}>
           <h1
-            className="
-                  LeftTitle
-                  LeftTitleWrapper
-                  LeftTitleWrapper_fontSize
-                  
-                "
+            className=" LeftTitle LeftTitleWrapper LeftTitleWrapper_fontSize"
           >
             <div className="LeftTitleContainer">
               <span>
@@ -46,14 +33,7 @@ function ReightProduct() {
             </div>
           </h1>
           <div
-            className="
-                  LeftText
-                  
-                  LeftTextWrapper
-                  
-                  LeftTextWrapper_fontsize
-                  
-                "
+            className=" LeftText LeftTextWrapper LeftTextWrapper_fontsize"
           >
             <div
               style={{
@@ -71,13 +51,7 @@ function ReightProduct() {
           <ul className="LeftLinks">
             <li className="LeftLink">
               <div
-                className="
-                      LefButton
-                      
-                      LefButton_small
-                      LefButton_fontSize
-                      LefButtonContainer
-                    "
+                className=" LefButton LefButton_small LefButton_fontSize LefButtonContainer"
                 style={{opacity: 1, transform: "perspective(1000px)"}}
               >
                 <div className="LefButtonWrapper LefButtonWrapper_color">
@@ -90,10 +64,7 @@ function ReightProduct() {
                   </div>
                   <a
                     id="201"
-                    className="
-                          LefButtonLink
-                          LefButton_fontSize
-                        "
+                    className=" LefButtonLink LefButton_fontSize"
                     target="_blank"
                     rel="noopener"
                     alt=""
@@ -109,22 +80,19 @@ function ReightProduct() {
       </div>
       <div className="Left_imageWrapper">
         <div style={{opacity: 1, transform: "perspective(1000px)"}}>
-          <div className="Left_imageInnerWrapper">
+          <div className="Left_imageInnerWrapper"
+            
+                  >
             <div className="Left_imageRatio" style={{paddingBottom: "90.1321%"}}>
                   <MockupAnimation 
-                      
+                   
                   />
 
            
 
             
               {/* <img
-                className="
-                      
-                      Left_image
-                      
-                      
-                    "
+                className=" Left_image"
                 src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Terminal_1_6e8d5110ac_19a5a335d7.svg"
                 alt="content types builder strapi"
                 style={{opacity: 1, visibility: "inherit"}}

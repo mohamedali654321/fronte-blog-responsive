@@ -526,6 +526,7 @@ height: 55px;
       justify-content: center;
       box-shadow: 0 1px 4px rgb(26 26 67 / 40%);
       z-index: 1000;
+      display: none;
       
   }
 
@@ -553,7 +554,7 @@ height: 55px;
          position: relative;
        visibility: visible;
        opacity:1 ;
-       width:8%;
+      display: block;
        
      /* margin-top: -300px;
        right: 120px; */
@@ -601,6 +602,7 @@ height: 55px;
       visibility: visible;
       opacity:1 ;
       width: 12%;
+      display: block;
       
    
    
@@ -618,6 +620,7 @@ height: 55px;
       visibility: visible;
       opacity:1 ;
       width: 12%;
+      display: block;
       
    
    

@@ -79,7 +79,7 @@ console.log(page)
                   </div>
                 </h1>
                 <div
-                  className=" stepText stepText_style stepText_style  stepText_fontSize stepText_color"
+                  className=" stepText stepText_style stepText_fontSize stepText_color"
                   data-aos-delay="200"
                   data-aos-duration="200"
                   data-aos-offset="200"
@@ -167,17 +167,17 @@ console.log(page)
             <div className="step_stepsAnimatedBackground">
               <div className="step_stepsInnerWrapper">
                 <div
-                  className={
-                    (page > 3420  && page < 4254 ) || (page > 5230  && page < 6205 )
-                      ? " float-right step_stepsAssetsWrapper"
-                      : "float-left step_stepsAssetsWrapper"
-                  }
+                  // className={
+                  //   (page > 3420  && page < 4254 ) || (page > 5230  && page < 6205 )
+                  //     ? " float-right step_stepsAssetsWrapper"
+                  //     : "float-left step_stepsAssetsWrapper"
+                  // }
 
-                  // className="step_stepsAssetsWrapper  "
-                  // style={{
-                  //   transform:
-                  //     "translate(0%, 0px) rotate(-4e-5deg) rotateY(15deg) rotateX(9.99994deg)",
-                  // }}
+                  className="step_stepsAssetsWrapper "
+                  style={{
+                    transform:
+                      "translate(0%, 0px) rotate(-4e-5deg) rotateY(15deg) rotateX(9.99994deg)",
+                  }}
                 >
                   <div className="step_stepsBackground_Img">
                     <div
@@ -185,7 +185,7 @@ console.log(page)
                       style={{ paddingBottom: "77.40112994350282%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-primary-desktop_e0dab1f509.svg"
                         alt="Illustration of desktop "
                         style={{ opacity: 1, visibility: "inherit" }}
@@ -213,7 +213,7 @@ console.log(page)
                           }}
                         >
                           <img
-                            className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                            className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                             src="./images/hero/hp-step1-2D_aeea862f0b.svg"
                             alt="Illustration of the Strapi Content-type fields"
                             style={{
@@ -383,7 +383,7 @@ console.log(page)
                         </div>
                       </span>
                     </h1>
-                    <p className=" stepText step_StepsDescription  stepText_color">
+                    <p className=" stepText step_StepsDescription stepText_color">
                       <span>
                         <div
                           className=""
@@ -410,7 +410,7 @@ console.log(page)
                       style={{ paddingBottom: "76.98744769874477%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-step1-2D_aeea862f0b.svg"
                         alt="Illustration of the Strapi Content-type fields"
                         style={{ opacity: 1, visibility: "inherit" }}
@@ -487,7 +487,7 @@ console.log(page)
                       style={{ paddingBottom: "76.98744769874477%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-step2-2D_6729998af1.svg"
                         alt="Illustration of the Strapi Content Manager"
                         style={{ opacity: 1, visibility: "inherit" }}
@@ -563,7 +563,7 @@ console.log(page)
                       style={{ paddingBottom: "92.96%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-step3-2D_7bc731eae8.svg"
                         alt="Illustration of Partner technologies of Strapi like AWS, Next.js, React, Netlify or Node.JS"
                         style={{ opacity: 1, visibility: "inherit" }}
@@ -640,7 +640,7 @@ console.log(page)
                       style={{ paddingBottom: "73.88268156424581%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-step4-2D_9ab379c7f5.svg"
                         alt="Illustration of a GraphQL request"
                         style={{ opacity: 1, visibility: "inherit" }}
@@ -715,7 +715,7 @@ console.log(page)
                       style={{ paddingBottom: "76.98744769874477%" }}
                     >
                       <img
-                        className="  step_stepsImage step_stepsImage_cover step_stepsimage_center"
+                        className=" step_stepsImage step_stepsImage_cover step_stepsimage_center"
                         src="./images/hero/hp-step5-2D_9d3fc362cc.svg"
                         alt="Illustration of the deployment options in Strapi"
                         style={{ opacity: 1, visibility: "inherit" }}

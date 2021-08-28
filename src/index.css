@@ -1,6 +1,4 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,200&display=swap');   */
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Monoton&display=swap');
@@ -12,6 +10,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Hanuman&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Battambang&family=Fasthand&family=Hanuman&family=Rock+Salt&display=swap');
 
+
+@font-face {
+  font-family: 'Effra-ar' ;
+  src: url(./fonts/alfont_com_AlFont_com_Effra_Rg_1.ttf);
+  font-style: normal;
+}
 /* @import url('../public/fonts/alfont_com_AlFont_com_Effra_Rg_1.ttf'); */
 body{
   margin: 0;

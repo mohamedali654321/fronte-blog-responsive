@@ -458,7 +458,7 @@ function Details({ match }) {
                                  
                                   styles_img_center
                                 "
-                                src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/22731000_59503fccb4.jpeg"
+                                src={BACKEND_URL + details.article_author.picture.url}
                                 style={{ opacity: 1, visibility: "inherit" }}
                               />
                             </div>
@@ -475,7 +475,7 @@ function Details({ match }) {
                              data-aos-offset="200"
                              data-aos-once="true"
                             >
-                              Author: {details.author}
+                              Author: {details.article_author.name}
                             </p>
                             <p
                               className="
