@@ -635,3 +635,15 @@
 
 
 
+
+
+
+
+.clip{
+
+  background: linear-gradient(180deg, #ca8de2 20%, #5d4ce6 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}

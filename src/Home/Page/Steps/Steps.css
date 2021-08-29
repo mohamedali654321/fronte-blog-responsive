@@ -674,6 +674,7 @@
 
   .float-left{
     transform: translate(0%,0px) rotate(-4e-5deg) rotateY(15deg) rotateX(9.99994deg)  !important;
+    transition: 1s cubic-bezier(0.2, 0.82, 0.2, 1);
     
   }
 
@@ -681,7 +682,7 @@
   .float-right{
     transform: translate(90%,0px) rotate(-4e-5deg) rotateY(-15deg) rotateX(9.99994deg) !important;
 
-   transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
 
@@ -720,4 +721,19 @@ to{
     scroll-behavior: smooth;
 }
 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  *{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }

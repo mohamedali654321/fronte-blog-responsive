@@ -23,7 +23,7 @@ export default function PurchaseButton(props) {
 }
 
 const Wrapper = styled.div`
-  width: 190px;
+  width: 168px;
   height: 44px;
   padding: 12px;
   background: #fff;

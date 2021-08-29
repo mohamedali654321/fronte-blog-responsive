@@ -77,8 +77,8 @@ function ProductHero() {
                 }}
                 
               >
-                Deliver personalized messages to each of your audiences, no matter what language they speak.
-                 Localize content by translating the text and adapting the messaging & structure of the page to each version.
+                We offer you the services of managing libraries and electronic repositories, translation, localization, content hate and content management system through open source software, 
+                which leads to flexibility and customization in light of the continuous development and global orientation to open source software
               </div>
               
             </h2>

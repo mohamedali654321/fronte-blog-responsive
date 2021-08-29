@@ -88,19 +88,18 @@ function HomeHero() {
                                 position: "relative",
                                 display: "inline-block",
                                 opacity: 1,
-                                transform:
-                                  "perspective(1000px) translate3d(0px, 0px, 0px)",
+                                transform:"perspective(1000px) translate3d(0px, 0px, 0px)",
                               }}
-                              class=""
+                              
                             >
-                             Design APIs fast, manage content easily.
+                            
+                            <span class=" clip">Think ahead &</span> 
+                             
+                             <span class=" clip" style={{marginTop:"160px"}}>Think openly.</span> 
                             </div>
-                           
-                            
-                            
-                            
-                        
+                          
                           </span>
+
                         </div>
                       </h1>
                       <h2 class=" HeroText HeroText_rich HeroText_position HeroText_style  HeroTitle_color"
@@ -119,9 +118,8 @@ function HomeHero() {
                           }}
                           class=""
                         >
-                          Strapi is the leading open-source headless CMS. It’s
-                          100% JavaScript, fully customizable and
-                          developer-first.
+                          <strong style={{fontSize:"25px",lineHeight:"1.5"}} className="clip">Kwaretech</strong>  Foundation for Trading is a Saudi Arab institution 
+                          working in the field of systems integration specialized in bilingual Information Access Technologies for government institutions and companies.
                         </div>
                       </h2>
                       <ul class="HeroLinks">
@@ -218,7 +216,7 @@ data-aos="zoom-in"
                             class="HeroRatio"
                             style={{ paddingBottom: "78.86100386100387%" }}
                           >
-                            {/* <figure class=" HeroLottieWrapper HeroAssetShadow">
+                            <figure class=" HeroLottieWrapper HeroAssetShadow">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 1036 817"
@@ -1533,7 +1531,7 @@ data-aos="zoom-in"
                                   </g>
                                 </g>
                               </svg>
-                            </figure> */}
+                            </figure>
                           </div>
                         </div>
                       </div>
