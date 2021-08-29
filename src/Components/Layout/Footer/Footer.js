@@ -61,63 +61,18 @@ function Footer() {
             class="footer_imgRatio"
             style={{ paddingBottom: "100.67114093959732%" }}
           >
-            <img
+            {/* <img
               class=" footerImage  "
               src="https://strapi.io/_next/static/images/05cae2bf306c44b4a82fda253514822e.svg"
               style={{ opacity: 1, visibility: "inherit" }}
-            />
+            /> */}
           </div>
         </div>
         <div class="container_maxWidth">
           <div class="wrapper">
             <div class="innerWrapper">
-              <h1 class="top_section_title top_title themes_color">
-                Unleash content.
-              </h1>
-              <div class="actions_container">
-                <div class="actions_button">
-                  <div class="actions_buttonContainer">
-                    <div class="actions_buttonStyle start_button_bg">
-                   
-                      <div
-                        class="action_button_background start_button_bg"
-                        style={{ transform: "perspective(800px)" }}
-                      >
-                     
-                      </div>
-                      <a
-                        class="action_buttonLink button_label"
-                        alt=""
-                        href="https://strapi.io/starters"
-                      >
-                        Starters
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="actions_button">
-                  <div class="actions_buttonContainer">
-                    <div class="actions_buttonStyle get_start_button_bg">
-                      
-                      <div
-                        class="action_button_background get_start_button_bg"
-                        style={{ transform: "perspective(800px)" }}
-                      >
-                        
-                      </div>
-                      <a
-                        class="action_buttonLink button_label"
-                        target="_blank"
-                        rel="noopener"
-                        alt=""
-                        href="https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project"
-                      >
-                        Get Started
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
+              
             </div>
           </div>
         </div>

@@ -1,0 +1,145 @@
+.productContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 95px;
+}
+.productWrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 70px;
+  width: 83.3333333333%;
+  max-width: 1200px;
+  z-index: 1;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px) {
+  .productWrapper {
+    padding-top: 85px;
+  }
+}
+
+.productInnerWrapper {
+  width: 100%;
+  max-width: none;
+}
+@media (min-width: 992px) {
+  .productInnerWrapper {
+    width: inherit;
+    max-width: inherit;
+  }
+}
+
+.productInnerWrapper_style {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+@media (min-width: 992px) {
+  .productInnerWrapper_style {
+    width: 81.6666666667%;
+  }
+}
+
+.productLabelTitleText {
+  opacity: 0;
+  width: 100%;
+}
+
+.productContentWrapper {
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  .productContentWrapper {
+    max-width: 370px;
+  }
+}
+
+.productLabel {
+  font-family: Poppins, serif;
+  font-size: 11px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #8c4bff;
+}
+@media (min-width: 992px) {
+  .productLabel {
+    font-size: 13px;
+  }
+}
+
+.productTitleContainer {
+  position: relative;
+}
+
+.productLabelWrapper,
+.productTextWrapper,
+.productTitleWrapper {
+  text-align: left;
+  transform: translateZ(1000px);
+}
+.productLabelWrapper {
+  margin-bottom: 40px;
+}
+.productTitleWrapper {
+  position: relative;
+  margin-bottom: 35px;
+  color: #8413b1;
+}
+
+.productLabelWrapper:last-child,
+.productTextWrapper:last-child,
+.productTitleWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.productTextWrapper {
+  padding: 0 6px;
+  margin-bottom: 57px;
+  color: #9c45da;
+}
+@media (min-width: 992px) {
+  .productTextWrapper {
+    padding: 0;
+  }
+}
+.productTitle {
+  font-family: Poppins, serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 56px;
+}
+@media (min-width: 992px) {
+  .productTitle {
+    font-size: 33px;
+  }
+}
+.productTitle.productTitle_fontSize {
+  font-size: 43px;
+}
+@media (min-width: 992px) {
+  .productTitle.productTitle_fontSize {
+    font-size: 48px;
+  }
+}
+
+.productText {
+  font-family: Poppins, serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  .productText {
+    font-size: 17px;
+  }
+}

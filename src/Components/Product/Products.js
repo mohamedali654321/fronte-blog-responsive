@@ -1,84 +1,45 @@
-import React from 'react'
-import ProductResource from './Products/ProductResource/ProductResource'
-import Navigation from './Products/Navigation/Navigation'
-import SearchBar from './Products/SearchBar/SearchBar'
-import Learn from './Products/Learn/Learn'
-import Community from './Products/Community/Community'
-import ChangeLog from './Products/ChangeLog/ChangeLog'
+import React,{useEffect,useState} from 'react'
+import axios from 'axios'
 
-import './Products.css'
+import LeftProduct from './KwareProduct/LeftProduct/LeftProduct'
+import ProductHero from './ProductHero/ProductHero'
 
 function Products() {
+
+  
+  const [products,setProducts]=useState([])
+
+  useEffect(()=>{
+
+axios.get('http://54.220.211.123:1335/products')
+.then(res=>{
+  setProducts(res.data)
+})
+.catch(err=>{console.log(err)})
+
+  },[])
+
     return (
-        <div class="productContainer">
-         <SearchBar/>
-          <div class="productWrapper productInnerWrapper">
-            <div class="productCenterContainer">
-           
-               
-               
-                 
-                  <Navigation/>
-                  <div class="productCenterWrapper">
+      <div>
+      <ProductHero/>
 
-                          <ProductResource/>
-                          <Learn/>
-                          <ChangeLog/>
-                          <Community/>
+        {
+                    products.map((product, index)=>(
+
+                        <LeftProduct
+                            title={product.name}
+                            slogan={product.slogan}
+                            description={product.body}
+                            url={product.url}
+                            index={index}
+                        />
 
 
+                    ))
+                }
 
-
-
-
-
-
-
-
-
-
-                          
-
-                  
-
-                 
-                
-
-
-              
-
-
-             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-
-
-
-                
-                  </div>  
-            </div>
-          </div>
-        </div>
+      </div>
+      
     )
 }
 
